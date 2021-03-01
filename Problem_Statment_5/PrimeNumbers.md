@@ -5,7 +5,7 @@ A Prime number is a number that is divisible only by itself and 1
 ### Given an integer, *_n_* , perform the following conditional actions:
 1. If _n_  is positive and is not a prime , print not prime
 2. If _n_ is positive and is a prime , print yes prime
-3. If _n_ is negative  , print invalid 
+3. If _n_ is negative , 0 or 1 , print invalid 
 
 
 ## Input Format
