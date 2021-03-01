@@ -16,20 +16,20 @@ print **'max' is divisible by 'min'** if both are positive and the max is divisb
 positive and the max is divisbile the min number , if either are negative , print **invalid input**
 
 #### *Sample Input 1* 
->- 2 6
+>- 2  6
 #### *Sample Output 1*
 >- 6 is divisible by 2
 
 
 
 #### *Sample Input 2*
->- 14 3
+>- 14  3
 #### *Sample Output 2*
 >- 14 is not divisble by 3
 
 
 #### *Sample Input 2*
->- -33 4
+>- -33  4
 #### *Sample Output 2*
 >- invalid input
 
