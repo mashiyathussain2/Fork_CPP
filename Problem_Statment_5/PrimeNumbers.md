@@ -1,4 +1,4 @@
-# *Definition of Palindrome*
+# *Definition of Prime Numbers*
 A Prime number is a number that is divisible only by itself and 1
 
 # *Task*
