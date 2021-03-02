@@ -34,5 +34,5 @@ Print the swapped array if swapping is possible , if not print *invalid number o
 >- invalid number of inputs
 
 
-##Constraints
+## Constraints
 >- T ~ 1 ≤ N ≤ 10000000
