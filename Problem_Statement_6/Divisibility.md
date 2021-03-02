@@ -34,5 +34,5 @@ positive and the max is divisbile the min number , if either are negative , prin
 >- invalid input
 
 
-##Constraints
+## Constraints
 >- 1 ≤ N ≤ 1000000
