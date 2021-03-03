@@ -20,6 +20,6 @@ int main()
         }
     }
 
-    cout << "GCD = " << hcf;
+    cout << "GCD = " << GCD;
     return 0;
 }
