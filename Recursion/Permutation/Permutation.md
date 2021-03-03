@@ -18,20 +18,20 @@ Explanation: 1! = 1 = 1
 **Example 2:**
 
 ```
-Input: n = 3
+Input: N = 3
 Output: 3! = 6
 Explanation: 3! = 3 x 2 x 1 = 6
 ```
 
 **Example 3:**
 ```
-Input: n = 4
+Input: N = 4
 Output: 4! = 24
 Explanation: 4! = 4 x 3 x 2 x 1
 ```
 
 **Constraints:**
 ```
- 0 <= n <= 100000
+ 0 <= N <= 100000
  
  ```
