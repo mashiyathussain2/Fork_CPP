@@ -122,8 +122,8 @@ void HELLO::WORLD()
 ///ARRAY PROGRAMS///
 class ARRAYS 
 {
-  private : int n , t, temp , A[100];
-  public : void SWAP(); 
+  private : int n , t, temp , A[100] , int a[20] , n1 , x , u , flag=0;
+  public : void SWAP(); void LSEARCH();
 };
 void ARRAYS::SWAP()
 {
@@ -145,6 +145,35 @@ for(t=0;t<n;t++)
 
     }
 } 
+
+void ARRAYS :: LSEARCH()
+{
+	
+	cout<<"How many elements?";
+	cin>>n;
+	cout<<"\nEnter elements of the array\n";
+	
+	for(u=0;u<n1;++u)
+		cin>>a[u];
+	
+	cout<<"\nEnter element to search:";
+	cin>>x;
+	
+	for(u=0;u<n1;++u)
+	{
+		if(a[u]==x)
+		{
+			flag=1;
+			break;
+		}
+	}
+	
+	if(flag)
+		cout<<"\nElement is found at position "<<i+1;
+	else
+		cout<<"\nElement not found";
+		}
+
  int main()
  { 
   //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS 
@@ -165,6 +194,7 @@ for(t=0;t<n;t++)
 //Arrays Programs
 ARRAYS A;
 A.SWAP();
-
+A.LSEARCH();
+  
  	return 0;
   }
