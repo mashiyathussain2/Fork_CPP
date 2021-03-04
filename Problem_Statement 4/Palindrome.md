@@ -27,9 +27,9 @@ Print **yes** if the number is palindromic; otherwise, print **no** , if input i
 >- YES
 
 
-#### *Sample Input 2*
+#### *Sample Input 3*
 >- -33
-#### *Sample Output 2*
+#### *Sample Output 3*
 >- invalid
 
 
