@@ -5,12 +5,12 @@
 class MATHS
 {
 private : int number1 , number2 , k , c=0;                 
- int sum=0 , prod , division , diff , permu1=1, permu2=1;  
+ int sum=0 , prod , division , diff , fact1=1, fact2=1;  
 
- public : void INPUT(); void SUM(); void DIFF();  void PROD(); void DIV(); void PERM(); void DIVIS(); void PRIME();
+ public : void INPUT(); void SUM(); void DIFF();  void PROD(); void DIV(); void FACT(); void DIVIS(); void PRIME();
 
 };
-void  MATHS::INPUT() //the function INPUT is a function through which the user inputs two values as number1 and number2 using the input operator '>>'
+void  MATHS :: INPUT() //the function INPUT is a function through which the user inputs two values as number1 and number2 using the input operator '>>'
  {
  	cout<<"enter two integer numbers"<<endl; //the \n takes the cursor to the next line after the current is executed 
  	 cin>>number1>>number2;
@@ -43,18 +43,18 @@ void  MATHS::INPUT() //the function INPUT is a function through which the user i
   
  }
 
- void  MATHS :: PERM()     //the function PERM is used to find the permutation of the two numbers seperately by using for loopss
- {               //ex of permutation , let n=4 , 4! = 4x3x2x1= 24 
+ void  MATHS :: FACT()     //the function FACT is used to find the factorials of the two numbers seperately by using for loopss
+ {               //ex of factorial , let n=4 , 4! = 4x3x2x1= 24 
    for(int i =number1 ; i>0 ; i--)   //the for loop helps us to multiply each number from 1->n
    {
- 	  permu1=permu1*i;      //remember to initialize variables that you'll be using in repetitive mulitplication as 1 and those of addition and subtraction as 0
+ 	  fact1=fact1*i;      //remember to initialize variables that you'll be using in repetitive mulitplication as 1 and those of addition and subtraction as 0
    }                       //as the variables contain garbage values by default which won't change for the variable unless specified (ie , input or initialization)
   for(int j =number2; j>0 ;j--)
    {
- 	  permu2=permu2*j;
+ 	  fact2=fact2*j;
    }
-  cout<<"Permutaion of "<<" "<<number1<<" "<<" is "<<" "<<permu1<<endl;
-  cout<<"Permutaion of "<<" "<<number2<<" "<<" is "<<" "<<permu2<<endl;
+  cout<<"Factorial of "<<" "<<number1<<" "<<" is "<<" "<<fact1<<endl;
+  cout<<"Factorial of "<<" "<<number2<<" "<<" is "<<" "<<fact2<<endl;
  }
 
  void  MATHS :: DIVIS() //the function DIVIS is used to check if either input values are divisible by one another again after checking on which is greater
