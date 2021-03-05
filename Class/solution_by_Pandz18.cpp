@@ -126,7 +126,7 @@
             float arr1[100]; 
             int arr[100], tot,  s ,  first[20], second[20], SUM[20], c;
    public : void SWAP(); void LSEARCH(); void EVOD(); void ARRSUM(); void ARRAVG(); void ARRLARG(); void ARRSMAl(); 
-            void TWOARRSUM();  void ARRSPLIT();
+            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC();
  };
  void ARRAYS::SWAP()
  {
@@ -156,7 +156,7 @@
  	cin>>n;
  	cout<<"\nEnter elements of the array\n";
    
- 	for(u=0;u<n1;++u)
+ 	for(u=0;u<n1;u++)
      {
          cin>>a[u];
      }
@@ -170,7 +170,7 @@
  		if(a[u]==x)
  		{
  			flag=1;
- 			break;
+ 			
  		}
  	}
 
@@ -292,9 +292,7 @@ void ARRAYS :: EVOD()
         if(s>arr1[i])
             s = arr1[i];
     }
-    cout<<"\nSmallest Number = "<<s;
-    cout<<endl;
-
+    cout<<"\nSmallest Number = "<<s<<endl;
     }
 
     void ARRAYS :: TWOARRSUM()
@@ -398,6 +396,54 @@ else
 }
 
 
+void ARRAYS :: ARRCONC()
+{
+
+    int X[100] , Y[100] , i , n3 , n4;
+    
+    cout<<"Enter size of Array 1";
+    cin>>n3;
+
+    cout<<"Enter size of Array 2";
+    cin>>n4;
+    
+    cout<<"Enter elemnts of Array 1";
+    
+    for(i=0;i<n1;i++)
+    {
+        cin>>X[100];
+    }
+
+     cout<<"Enter elemnts of Array 2";
+    
+    for(i=0;i<n1;i++)
+    {
+        cin>>Y[100];
+    }
+    
+    int m = sizeof(X)/sizeof(X[0]);
+    int n = sizeof(Y)/sizeof(Y[0]);
+ 
+    int array1[m + n];
+
+    for (int i = 0; i < m + n; i++)
+     {
+        if (i < m) 
+        {
+            array1[i] = X[i];
+        }
+        else 
+        {
+            array1[i] = Y[i - m];
+        }
+    }
+ 
+    for (int i = 0; i < m + n; i++) 
+    {
+       cout << array1[i] << ' ';
+    }
+}
+
 ////
 
 //OBJECTS
@@ -441,19 +487,22 @@ void OBJECTS :: POINT()
    HELLO H;
    H.WORLD();
 
- //Arrays Programs
+//Arrays Programs
  ARRAYS A;
  A.SWAP();
- A.LSEARCH();
  A.EVOD();
  A.ARRSUM();
  A.ARRAVG();
  A.ARRLARG();
  A.ARRSMAl();
  A.TWOARRSUM();
- A. ARRSPLIT();
+ A.ARRSPLIT();
+ A.ARRCONC();
+ A.LSEARCH();
+    
  //Objects Programs
  OBJECTS O;
  O.POINT();
-  	return 0;
+    
+ return 0;
    }
