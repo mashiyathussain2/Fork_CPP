@@ -23,7 +23,7 @@ Display *Maximum integer in array :* (max integer) in a new line
 
 2
 
-3 2
+3  2
 
 1
 
