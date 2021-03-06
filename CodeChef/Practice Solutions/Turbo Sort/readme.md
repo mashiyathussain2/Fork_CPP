@@ -24,7 +24,7 @@ Output given numbers in non decreasing order.
 
 1
 
-##Output:
+## Output:
 
 1
 
