@@ -11,9 +11,13 @@ For each integer n given at input, display a line with the value of n!
 
 ## Sample input:
 4
+
 1
+
 2
+
 5
+
 3
 
 ## Sample output:
