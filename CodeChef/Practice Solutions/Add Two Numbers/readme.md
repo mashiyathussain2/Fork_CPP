@@ -1,16 +1,16 @@
 ## Problem Statement
 
-### Shivam is the youngest programmer in the world, he is just 12 years old. Shivam is learning programming and today he is writing his first program. 
+Shivam is the youngest programmer in the world, he is just 12 years old. Shivam is learning programming and today he is writing his first program. 
 
 ## Input
-### The first line contains an integer T, the total number of test cases. Then follow T lines, each line contains two Integers A and B.
+The first line contains an integer T, the total number of test cases. Then follow T lines, each line contains two Integers A and B.
 
 ## Output
-### For each test case, add A and B and display it in a new line.
+For each test case, add A and B and display it in a new line.
 
 ## Constraints
-### 1 ≤ T ≤ 1000
-### 0 ≤ A,B ≤ 10000
+1 ≤ T ≤ 1000
+0 ≤ A,B ≤ 10000
 
 ## Example
 
