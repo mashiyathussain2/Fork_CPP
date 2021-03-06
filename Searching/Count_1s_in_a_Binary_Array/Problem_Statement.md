@@ -23,5 +23,5 @@ I/P:- arr[]={0,0,0,0}
 O/P:- 0
 ```
 
-**Note:- Binary search is always a good hint to solve a problem when your input array is sorted**
+**Note:- Binary search is always a good hint to solve a problem when your input array is sorted.**
 
