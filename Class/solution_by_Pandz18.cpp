@@ -8,7 +8,7 @@
   int sum=0 , prod , division , diff , fact1=1, fact2=1;  
 
   public : void INPUT(); void SUM(); void DIFF();  void PROD(); void DIV(); void FACT(); void DIVIS(); void PRIME();
-
+           void CR(); void COMP();
  };
  void  MATHS :: INPUT() //the function INPUT is a function through which the user inputs two values as number1 and number2 using the input operator '>>'
   {
@@ -105,6 +105,41 @@
 
  }
 
+    void MATHS :: CR()
+    {
+        int a , b;
+        cout<<"Enter two values a and b";
+        cin>>a>>b;
+        cout<<"a is :"<<" "<<a;
+        cout<<"b is :"<<" "<<b;
+        cout<<"a after incrementation :"<<" "<<a++;
+        cout<<"b after incrementation :"<<" "<<b++;
+        cout<<"a after decrementation :"<<" "<<a--;
+        cout<<"b after decrementation :"<<" "<<b--;
+    }
+
+
+ void MATHS :: COMP()
+ {
+     int NM1 , NM2;
+     cout<<"Enter numbers ";
+     cin>>NM1>>NM2;
+
+     if(NM1>NM2)
+     {
+         cout<<NM1<<" "<<"is greater than"<<" "<<NM2;
+     }
+     else if (NM2>NM1)
+     {
+         cout<<NM1<<" "<<"is lesser than"<<" "<<NM2;
+     }
+     else
+     {
+         cout<<cout<<NM1<<" "<<"is equal to"<<" "<<NM2;
+     }
+
+ }
+
  //////////////////////////////////
 
  //Hello world/////
@@ -119,11 +154,16 @@
  }
  ///////////////////////////////////
 
+
+
  ///ARRAY PROGRAMS///
  class ARRAYS 
  {
-   private : int n , t, temp , A[100] , i ,  n1 , x , u , flag=0 , sum=0 , B[100] , n2 ,  i2 , avg;
-   public : void SWAP(); void LSEARCH(); void EVOD(); void ARRSUM(); void ARRAVG(); void ARRLARG(); void ARRSMAl();
+   private : int n , t,  a[20] , temp , A[100] , i ,  n1 , x , u , flag=0 , sum1=0 , B[100] , n2 ,  i2 , avg , C[10] , D[10] , E[10] ;
+            float arr1[100]; 
+            int arr[100], tot,  s ,  first[20], second[20], SUM[20], c;
+   public : void SWAP(); void LSEARCH(); void EVOD(); void ARRSUM(); void ARRAVG(); void ARRLARG(); void ARRSMAl(); 
+            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC();
  };
  void ARRAYS::SWAP()
  {
@@ -147,14 +187,17 @@
  } 
 
  void ARRAYS :: LSEARCH()
- {  int a[20] ;
+ {  
 
  	cout<<"How many elements?";
  	cin>>n;
  	cout<<"\nEnter elements of the array\n";
-
- 	for(u=0;u<n1;++u)
- 		cin>>a[u];
+   
+ 	for(u=0;u<n1;u++)
+     {
+         cin>>a[u];
+     }
+ 		
 
  	cout<<"\nEnter element to search:";
  	cin>>x;
@@ -164,7 +207,7 @@
  		if(a[u]==x)
  		{
  			flag=1;
- 			break;
+ 			
  		}
  	}
 
@@ -172,12 +215,13 @@
  		cout<<"\nElement is found at position "<<i+1;
  	else
  		cout<<"\nElement not found";
- 		}
+ 	
+         }
 
 
 void ARRAYS :: EVOD()
  {
-    int n , i ;
+   
     cin>>n;
     if(n>0)
     {
@@ -220,7 +264,7 @@ void ARRAYS :: EVOD()
     
 
     void ARRAYS :: ARRSUM()
-    {
+    {   int sum=0;
         cout<<"Enter number of array elements";
         cin>>n2;
 
@@ -234,7 +278,8 @@ void ARRAYS :: EVOD()
 
 
     void ARRAYS :: ARRAVG()
-    {
+    {   
+        int sum=0;
         cout<<"Enter number of array elements";
         cin>>n2;
 
@@ -248,9 +293,7 @@ void ARRAYS :: EVOD()
 
     void ARRAYS :: ARRLARG()
     {
-         int i, n;
-    float arr[100];
-
+    
     cout << "Enter total number of elements(1 to 100): ";
     cin >> n;
     cout << endl;
@@ -274,29 +317,177 @@ void ARRAYS :: EVOD()
 
     void ARRAYS :: ARRSMAl()
     {
-     int arr[100], tot, i, s;
+     
     cout<<"Enter the Size for Array: ";
     cin>>tot;
     cout<<"Enter "<<tot<<" Array Elements: ";
     for(i=0; i<tot; i++)
-        cin>>arr[i];
-    s = arr[0];
+        cin>>arr1[i];
+    s = arr1[0];
     for(i=1; i<tot; i++)
     {
-        if(s>arr[i])
-            s = arr[i];
+        if(s>arr1[i])
+            s = arr1[i];
     }
-    cout<<"\nSmallest Number = "<<s;
-    cout<<endl;
+    cout<<"\nSmallest Number = "<<s<<endl;
+    }
 
+    void ARRAYS :: TWOARRSUM()
+    {
+       
+  
+  cout << "Enter the number of elements in the array ";
+  cin >> n;
+
+  cout << "Enter elements of first array" << endl;
+
+  for (c = 0; c < n; c++)
+    cin >> first[c];
+
+  cout << "Enter elements of second array" << endl;
+
+  for (c = 0; c < n; c++)
+    cin >> second[c];
+
+  cout << "Sum of elements of the arrays:" << endl;
+
+  for (c = 0; c < n; c++) {
+    SUM[c] = first[c] + second[c];
+    cout << SUM[c] << endl;
+  }
     }
+
+void ARRAYS :: ARRSPLIT()
+{   
+  
+  cout<<"Enter number of elements in array";
+  cin>>n;
+  
+  int mid=n/2;
+
+  cout<<"Enter elements of array";
+  
+  for(i=1;i<=n;i++)
+  {
+      cin>>C[i];
+  }
+
+  if(n%2==0)
+  {
+      for(i=1;i<=mid;i++)
+      {
+         int left= D[i];
+      }
+
+      
+      for(i=mid+1;i<=n;i++)
+      {
+         int right= E[i];
+      }
+
+        int d =sizeof(D[i]);
+        int e =sizeof(E[i]);
+      
+      cout<<"First Array : ";
+      for(i=1;i<=d;i++)
+      {
+          cout<<left;
+      }
+
+      cout<<"Second Array : ";
+      for(i=1;i<=e;i++)
+      {
+          cout<<right;
+      }
+}
+else 
+{
+    for(i=1;i<mid;i++)
+      {
+           int left = D[i];
+      }
+
+      
+      for(i=mid+1;i<=n;i++)
+      {
+          int right =E[i];
+      }
+
+        int d =sizeof(D[i]);
+        int e =sizeof(E[i]);
+      
+      cout<<"First Array : ";
+      for(i=1;i<=d;i++)
+      {
+          cout<<D[i];
+      }
+
+      cout<<"Second Array : ";
+      for(i=1;i<=e;i++)
+      {
+          cout<<E[i];
+      }
+
+      cout<<"Extra element : "<<mid<<endl;
+}
+}
+
+
+void ARRAYS :: ARRCONC()
+{
+
+    int X[100] , Y[100] , i , n3 , n4;
+    
+    cout<<"Enter size of Array 1";
+    cin>>n3;
+
+    cout<<"Enter size of Array 2";
+    cin>>n4;
+    
+    cout<<"Enter elemnts of Array 1";
+    
+    for(i=0;i<n1;i++)
+    {
+        cin>>X[100];
+    }
+
+     cout<<"Enter elemnts of Array 2";
+    
+    for(i=0;i<n1;i++)
+    {
+        cin>>Y[100];
+    }
+    
+    int m = sizeof(X)/sizeof(X[0]);
+    int n = sizeof(Y)/sizeof(Y[0]);
+ 
+    int array1[m + n];
+
+    for (int i = 0; i < m + n; i++)
+     {
+        if (i < m) 
+        {
+            array1[i] = X[i];
+        }
+        else 
+        {
+            array1[i] = Y[i - m];
+        }
+    }
+ 
+    for (int i = 0; i < m + n; i++) 
+    {
+       cout << array1[i] << ' ';
+    }
+}
+
 ////
 
 //OBJECTS
 class OBJECTS
 {
    private : int a , b, c;
-   public : void POINT(); 
+   public : void POINT(); void STACKS();
 };
 
 void OBJECTS :: POINT()
@@ -314,36 +505,111 @@ void OBJECTS :: POINT()
     cout << "Address of "<<" "<<a<<" :"<<" "<< &b << endl;
 }
 
+void OBJECTS :: STACKS()
+{  
+     int stack[100], n=100, top=-1;
+    int ch, val;
+   cout<<"1) Push in stack"<<endl;
+   cout<<"2) Pop from stack"<<endl;
+   cout<<"3) Display stack"<<endl;
+   cout<<"4) Exit"<<endl;
+   
+   do {
+      cout<<"Enter choice: "<<endl;
+      cin>>ch;
+      switch(ch) 
+      {
+         case 1: 
+         {
+            cout<<"Enter value to be pushed:"<<endl;
+            cin>>val;
+            if(top>=n-1)
+   cout<<"Stack Overflow"<<endl;
+   else 
+   {
+      top++;
+      stack[top]=val;
+            break;
+         }
+         }
+         case 2: 
+         {
+           if(top<=-1)
+           {
+                cout<<"Stack Underflow"<<endl;
+           }
+  
+        else {
+      cout<<"The popped element is "<< stack[top] <<endl;
+      top--;
+            break;
+         }
+         case 3: 
+         {
+            if(top>=0)
+             {
+      cout<<"Stack elements are:";
+      for(int i=top; i>=0; i--)
+      cout<<stack[i]<<" ";
+      cout<<endl;
+   } else
+   {
+       cout<<"Stack is empty";
+            break;
+   }
+    }
+         case 4: 
+         {
+            cout<<"Exit"<<endl;
+            break;
+         }
+         default: 
+         {
+            cout<<"Invalid Choice"<<endl;
+         }
+      }
+      }
+   } while(ch!=4);
+}
 
+   
 
   int main()
   { 
+    
    //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS 
-    MATHS M; 
-    M.INPUT();            
-    M.SUM();
-    M.DIFF();
-    M.PROD();
-    M.DIV();
-    M.FACT();
-    M.DIVIS();
-    M.PRIME();
-
+  	 MATHS M; 
+     M.INPUT();            
+  	 M.SUM();
+  	 M.DIFF();
+  	 M.PROD();
+  	 M.DIV();
+  	 M.FACT();
+  	 M.DIVIS();
+     M.PRIME();
+     M.CR();
+     M.COMP();
+    
  ///HELLO WORLD
    HELLO H;
    H.WORLD();
 
- //Arrays Programs
+//Arrays Programs
  ARRAYS A;
  A.SWAP();
- A.LSEARCH();
  A.EVOD();
  A.ARRSUM();
  A.ARRAVG();
  A.ARRLARG();
  A.ARRSMAl();
+ A.TWOARRSUM();
+ A.ARRSPLIT();
+ A.ARRCONC();
+ A.LSEARCH();
+
  //Objects Programs
  OBJECTS O;
  O.POINT();
-  	return 0;
+ O.STACKS();
+return 0;
    }
