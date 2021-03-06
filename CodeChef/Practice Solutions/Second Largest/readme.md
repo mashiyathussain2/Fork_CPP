@@ -16,12 +16,17 @@ For each test case, display the second largest among A, B and C, in a new line.
 
 ## Input
 3 
-120 11 400
-10213 312 10
-10 3 450
+
+120     11     400
+
+10213   312   10
+
+10       3    450
 
 ## Output
 
 120
+
 312
+
 10
