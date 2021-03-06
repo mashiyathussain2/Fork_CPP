@@ -21,7 +21,11 @@ For each integer n given at input, display a line with the value of n!
 3
 
 ## Sample output:
+
 1
+
 2
+
 120
+
 6
