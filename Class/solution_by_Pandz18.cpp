@@ -8,7 +8,7 @@
   int sum=0 , prod , division , diff , fact1=1, fact2=1;  
 
   public : void INPUT(); void SUM(); void DIFF();  void PROD(); void DIV(); void FACT(); void DIVIS(); void PRIME();
-
+           void CR(); void COMP();
  };
  void  MATHS :: INPUT() //the function INPUT is a function through which the user inputs two values as number1 and number2 using the input operator '>>'
   {
@@ -105,6 +105,41 @@
 
  }
 
+    void MATHS :: CR()
+    {
+        int a , b;
+        cout<<"Enter two values a and b";
+        cin>>a>>b;
+        cout<<"a is :"<<" "<<a;
+        cout<<"b is :"<<" "<<b;
+        cout<<"a after incrementation :"<<" "<<a++;
+        cout<<"b after incrementation :"<<" "<<b++;
+        cout<<"a after decrementation :"<<" "<<a--;
+        cout<<"b after decrementation :"<<" "<<b--;
+    }
+
+
+ void MATHS :: COMP()
+ {
+     int NM1 , NM2;
+     cout<<"Enter numbers ";
+     cin>>NM1>>NM2;
+
+     if(NM1>NM2)
+     {
+         cout<<NM1<<" "<<"is greater than"<<" "<<NM2;
+     }
+     else if (NM2>NM1)
+     {
+         cout<<NM1<<" "<<"is lesser than"<<" "<<NM2;
+     }
+     else
+     {
+         cout<<cout<<NM1<<" "<<"is equal to"<<" "<<NM2;
+     }
+
+ }
+
  //////////////////////////////////
 
  //Hello world/////
@@ -118,6 +153,8 @@
      cout<<"Hello World"<<endl;
  }
  ///////////////////////////////////
+
+
 
  ///ARRAY PROGRAMS///
  class ARRAYS 
@@ -450,7 +487,7 @@ void ARRAYS :: ARRCONC()
 class OBJECTS
 {
    private : int a , b, c;
-   public : void POINT(); 
+   public : void POINT(); void STACKS();
 };
 
 void OBJECTS :: POINT()
@@ -468,21 +505,91 @@ void OBJECTS :: POINT()
     cout << "Address of "<<" "<<a<<" :"<<" "<< &b << endl;
 }
 
+void OBJECTS :: STACKS()
+{  
+     int stack[100], n=100, top=-1;
+    int ch, val;
+   cout<<"1) Push in stack"<<endl;
+   cout<<"2) Pop from stack"<<endl;
+   cout<<"3) Display stack"<<endl;
+   cout<<"4) Exit"<<endl;
+   
+   do {
+      cout<<"Enter choice: "<<endl;
+      cin>>ch;
+      switch(ch) 
+      {
+         case 1: 
+         {
+            cout<<"Enter value to be pushed:"<<endl;
+            cin>>val;
+            if(top>=n-1)
+   cout<<"Stack Overflow"<<endl;
+   else 
+   {
+      top++;
+      stack[top]=val;
+            break;
+         }
+         }
+         case 2: 
+         {
+           if(top<=-1)
+           {
+                cout<<"Stack Underflow"<<endl;
+           }
+  
+        else {
+      cout<<"The popped element is "<< stack[top] <<endl;
+      top--;
+            break;
+         }
+         case 3: 
+         {
+            if(top>=0)
+             {
+      cout<<"Stack elements are:";
+      for(int i=top; i>=0; i--)
+      cout<<stack[i]<<" ";
+      cout<<endl;
+   } else
+   {
+       cout<<"Stack is empty";
+            break;
+   }
+    }
+         case 4: 
+         {
+            cout<<"Exit"<<endl;
+            break;
+         }
+         default: 
+         {
+            cout<<"Invalid Choice"<<endl;
+         }
+      }
+      }
+   } while(ch!=4);
+}
 
+   
 
   int main()
   { 
+    
    //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS 
   	 MATHS M; 
-    M.INPUT();            
+     M.INPUT();            
   	 M.SUM();
   	 M.DIFF();
   	 M.PROD();
   	 M.DIV();
   	 M.FACT();
   	 M.DIVIS();
-    M.PRIME();
-
+     M.PRIME();
+     M.CR();
+     M.COMP();
+    
  ///HELLO WORLD
    HELLO H;
    H.WORLD();
@@ -499,10 +606,10 @@ void OBJECTS :: POINT()
  A.ARRSPLIT();
  A.ARRCONC();
  A.LSEARCH();
-    
+
  //Objects Programs
  OBJECTS O;
  O.POINT();
-    
- return 0;
+ O.STACKS();
+return 0;
    }
