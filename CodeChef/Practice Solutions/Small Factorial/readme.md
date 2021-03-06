@@ -19,12 +19,17 @@ For each test case, display the factorial of the given number N in a new line.
 ### Input
 
 3 
+
 3 
+
 4
+
 5
 
 ### Output
 
 6
+
 24
+
 120
