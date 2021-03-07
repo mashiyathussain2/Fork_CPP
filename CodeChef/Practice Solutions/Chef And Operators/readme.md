@@ -20,6 +20,7 @@ For each line of input produce one line of output. This line contains any one of
 ### Constraints
 
 1 ≤ T ≤ 10000
+
 1 ≤ A, B ≤ 1000000001
 
 ### Example
@@ -29,7 +30,9 @@ For each line of input produce one line of output. This line contains any one of
 3
 
 10     20
+
 20     10
+
 10     10
 
 ### Output:
