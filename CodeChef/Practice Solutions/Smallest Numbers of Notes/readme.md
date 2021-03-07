@@ -14,6 +14,7 @@ For each test case, display the smallest number of notes that will combine to gi
 ## Constraints
 
 1 ≤ T ≤ 1000
+
 1 ≤ N ≤ 1000000
 
 ## Example
