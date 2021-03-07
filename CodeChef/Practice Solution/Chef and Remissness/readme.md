@@ -35,4 +35,5 @@ For each test case, output a single line containing two space separated integers
 19       17
 
 Output:
-19 36
+
+19       36
