@@ -12,6 +12,7 @@ For each test case, display the factorial of the given number N in a new line.
 ### Constraints
 
 1 ≤ T ≤ 1000
+
 0 ≤ N ≤ 20
 
 ### Example
