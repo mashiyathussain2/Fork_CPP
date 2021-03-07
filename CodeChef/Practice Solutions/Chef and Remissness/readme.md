@@ -24,6 +24,7 @@ For each test case, output a single line containing two space separated integers
 ## Constraints
 
 1 ≤ T ≤ 100
+
 0 ≤ A, B ≤ 1000000
 
 ## Example
