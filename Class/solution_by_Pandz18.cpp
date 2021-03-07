@@ -163,7 +163,7 @@
             float arr1[100]; 
             int arr[100], tot,  s ,  first[20], second[20], SUM[20], c;
    public : void SWAP(); void LSEARCH(); void EVOD(); void ARRSUM(); void ARRAVG(); void ARRLARG(); void ARRSMAl(); 
-            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC();
+            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC(); void ARRPOS();
  };
  void ARRAYS::SWAP()
  {
@@ -481,6 +481,25 @@ void ARRAYS :: ARRCONC()
     }
 }
 
+void ARRAYS :: ARRPOS()
+{   
+    int size , loop1 , Q[10] ;
+
+    cout<<"Enter size of array";
+    cin>>size;
+    cout<<"Enter array elements";
+
+    for(loop1=0;loop1<size;loop1++)
+    {
+        cin>>Q[loop1];
+    }
+
+         for(loop1=0;loop1<size;loop1++)
+    {
+        cout<<Q[loop1]<<" "<<"is found at"<<loop1<<"th position";
+    }
+}
+
 ////
 
 //OBJECTS
@@ -576,7 +595,6 @@ void OBJECTS :: STACKS()
 
   int main()
   { 
-    
    //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS 
   	 MATHS M; 
      M.INPUT();            
@@ -589,12 +607,12 @@ void OBJECTS :: STACKS()
      M.PRIME();
      M.CR();
      M.COMP();
-    
  ///HELLO WORLD
    HELLO H;
    H.WORLD();
 
 //Arrays Programs
+
  ARRAYS A;
  A.SWAP();
  A.EVOD();
@@ -606,10 +624,12 @@ void OBJECTS :: STACKS()
  A.ARRSPLIT();
  A.ARRCONC();
  A.LSEARCH();
+ A.ARRPOS();
 
  //Objects Programs
  OBJECTS O;
  O.POINT();
  O.STACKS();
+ 
 return 0;
    }
