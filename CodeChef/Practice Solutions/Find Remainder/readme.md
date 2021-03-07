@@ -9,6 +9,7 @@ For each test case, find the remainder when A is divided by B, and display it in
 
 ## Constraints
 1 ≤ T ≤ 1000
+
 1 ≤ A,B ≤ 10000
 
 ## Example
