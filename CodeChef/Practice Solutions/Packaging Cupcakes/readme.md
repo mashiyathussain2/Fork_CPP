@@ -18,6 +18,7 @@ If multiple package sizes will result in the same number of leftover cupcakes, p
 ### Constraints
 
 1 ≤ T ≤ 1000
+
 2 ≤ N ≤ 100000000 (108)
 
 ### Sample Input
