@@ -10,17 +10,24 @@ For each test case, add A and B and display it in a new line.
 
 ## Constraints
 1 ≤ T ≤ 1000
+
 0 ≤ A,B ≤ 10000
 
 ## Example
 
 ### Input
 3 
-1 2
-100 200
-10 40
+
+1     2
+
+100     200
+
+10    40
 
 ### Output
+
 3
+
 300
+
 50
