@@ -16,6 +16,7 @@ if the first number is greater than the second number otherwise output their sum
 ## Constraints
 
 -1000≤N1≤1000
+
 −1000≤N2≤1000
 
 ## Sample Input:
