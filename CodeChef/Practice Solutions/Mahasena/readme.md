@@ -21,6 +21,7 @@ Generate one line output saying "READY FOR BATTLE", if the army satisfies the co
 ## Constraints
 
 1 ≤ N ≤ 100
+
 1 ≤ Ai ≤ 100
 
 ## Example 1
