@@ -14,6 +14,7 @@ For each test case, display 'YES' if the triangle is valid, and 'NO', if it is n
 ## Constraints
 
 1 ≤ T ≤ 1000
+
 1 ≤ A,B,C ≤ 180
 
 ## Example
