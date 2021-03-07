@@ -13,6 +13,7 @@ For each test case, output the given string or -1 depending on conditions, in a 
 ### Constraints
 
 1 ≤ T ≤ 1000
+
 -20 ≤ N ≤ 20
 
 ### Example
