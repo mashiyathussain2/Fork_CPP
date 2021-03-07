@@ -29,7 +29,7 @@ Output given numbers in non decreasing order.
 1
 
 ## Output:
- 
+
 1
 
 3

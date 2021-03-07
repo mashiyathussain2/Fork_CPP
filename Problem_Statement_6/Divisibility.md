@@ -28,11 +28,11 @@ positive and the max is divisbile the min number , if either are negative , prin
 >- 14 is not divisble by 3
 
 
-#### *Sample Input 2*
+#### *Sample Input 3*
 >- -33  4
-#### *Sample Output 2*
+#### *Sample Output 3*
 >- invalid input
 
 
-##Constraints
+## Constraints
 >- 1 ≤ N ≤ 1000000

@@ -8,7 +8,7 @@
 
 ## Input Format
 A single line containing a positive integer,_i_ for the number of elements to be inputed .
-A single liine containing a positive integer array A[i] , to store n number of inputs
+A single line containing a positive integer array A[i] , to store n number of inputs
 
 ## Output Format
 Print the swapped array if swapping is possible , if not print *invalid number of inputs*
@@ -34,5 +34,5 @@ Print the swapped array if swapping is possible , if not print *invalid number o
 >- invalid number of inputs
 
 
-##Constraints
+## Constraints
 >- T ~ 1 ≤ N ≤ 10000000
