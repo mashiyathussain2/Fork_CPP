@@ -9,6 +9,7 @@ For each test case, display the sum of first and last digits of N in a new line.
 
 ## Constraints
 1 ≤ T ≤ 1000
+
 1 ≤ N ≤ 1000000
 
 ## Example
