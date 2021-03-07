@@ -10,6 +10,7 @@ For each test case, display the second largest among A, B and C, in a new line.
 ## Constraints
 
 1 ≤ T ≤ 1000
+
 1 ≤ A,B,C ≤ 1000000
 
 ## Example
