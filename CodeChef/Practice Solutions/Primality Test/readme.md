@@ -19,6 +19,7 @@ For each test case output in a separate line, "yes" if the number is prime else 
 ## Constraints
 
 1 ≤ T ≤ 20
+
 1 ≤ N ≤ 100000
 
 ## Input:
