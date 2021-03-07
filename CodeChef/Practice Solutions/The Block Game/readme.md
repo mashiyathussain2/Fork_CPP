@@ -20,6 +20,7 @@ For each input output "wins" if the number is a palindrome and "loses" if not, i
 ## Constraints
 
 1<=T<=20 
+
 1<=N<=20000 
 
 ## Input:
