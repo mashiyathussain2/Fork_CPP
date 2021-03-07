@@ -11,14 +11,23 @@ Write a single integer to output, denoting how many integers ti are divisible by
 ## Example
 
 ### Input :
-7 3
+
+7    3
+
 1
+
 51
+
 966369
+
 7
+
 9
+
 999996
+
 11
 
 ### Output :
+
 4
