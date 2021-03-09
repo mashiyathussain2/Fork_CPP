@@ -44,15 +44,18 @@
   }
 
   void  MATHS :: FACT()     //the function FACT is used to find the factorials of the two numbers seperately by using for loopss
-  {               //ex of factorial , let n=4 , 4! = 4x3x2x1= 24 
+  {      
+                              //ex of factorial , let n=4 , 4! = 4x3x2x1= 24 
     for(int i =number1 ; i>0 ; i--)   //the for loop helps us to multiply each number from 1->n
     {
   	  fact1=fact1*i;      //remember to initialize variables that you'll be using in repetitive mulitplication as 1 and those of addition and subtraction as 0
-    }                       //as the variables contain garbage values by default which won't change for the variable unless specified (ie , input or initialization)
+    }  
+                         //as the variables contain garbage values by default which won't change for the variable unless specified (ie , input or initialization)
    for(int j =number2; j>0 ;j--)
     {
   	  fact2=fact2*j;
     }
+
    cout<<"Factorial of "<<" "<<number1<<" "<<" is "<<" "<<fact1<<endl;
    cout<<"Factorial of "<<" "<<number2<<" "<<" is "<<" "<<fact2<<endl;
   }
@@ -60,13 +63,15 @@
   void  MATHS :: DIVIS() //the function DIVIS is used to check if either input values are divisible by one another again after checking on which is greater
   {
   	 if((max(number1,number2))%(min(number1,number2))==0)   //we use the '%' operator as it gives us the remainder of the function while '/' gives us the quotient 
-  	 {              //if a number is divisible by other there will be no remainder , hence we said "(max(number1,number2)%min(number,number2)==0" then to print it's divisible
+  	 {                                                      //if a number is divisible by other there will be no remainder , hence we said "(max(number1,number2)%min(number,number2)==0" then to print it's divisible
   		cout<<max(number1,number2)<<" "<<"is divisible by"<<" "<<min(number1,number2)<<endl;
      }
+    
      else
    {
   	 cout<<"Neither numbers are divisible by one another "<<endl;
    }
+ 
   }
 
  void  MATHS :: PRIME()
@@ -110,12 +115,16 @@
         int a , b;
         cout<<"Enter two values a and b";
         cin>>a>>b;
+
         cout<<"a is :"<<" "<<a;
         cout<<"b is :"<<" "<<b;
+
         cout<<"a after incrementation :"<<" "<<a++;
         cout<<"b after incrementation :"<<" "<<b++;
+
         cout<<"a after decrementation :"<<" "<<a--;
         cout<<"b after decrementation :"<<" "<<b--;
+    
     }
 
 
@@ -221,21 +230,22 @@
 
 void ARRAYS :: EVOD()
  {
-   
+    
     cin>>n;
+
     if(n>0)
     {
         if(n%2==0)
         {
             for(i=2 ; i<=n ; i=i+2)
             {
-                cout<<i<<" ";
+                cout<<n<<" "<<"Even numbers :"<<" "<<i<<" ";
             }
         } else
         {
-            for(i=2 ; i<n ; i=i+2)
+            for(i=3 ; i<=n ; i=i+2)
             {
-                cout<<i<<" ";
+                cout<<n<<" "<<"Odd numbers :"<<" "<<i<<" ";
             }
         }
     }
@@ -264,28 +274,44 @@ void ARRAYS :: EVOD()
     
 
     void ARRAYS :: ARRSUM()
-    {   int sum=0;
+    {   int sum=0 , loop3;
+        int L[10];
         cout<<"Enter number of array elements";
         cin>>n2;
 
+        cout<<"Enter  array elements";
+        
+        for(loop3=0;loop3<n2;loop3++)
+        {
+            cin>>L[loop3];
+        }
+
+
         for(i2=0;i2<n2;i2++)
         {
-            sum=sum+i2;
+            sum=sum+L[i2];
         }
-        cout<<"Sum of array :"<<" "<<n2;
+        cout<<"Sum of array :"<<" "<<sum;
     }
 
 
 
     void ARRAYS :: ARRAVG()
     {   
-        int sum=0;
+        int sum=0 , R[10] , loop4;
         cout<<"Enter number of array elements";
         cin>>n2;
 
+
+
+        for(loop4=0;loop4<n2;loop4++)
+        {
+            cin>>R[loop4];
+        }
+
         for(i2=0;i2<n2;i2++)
         {
-            sum=sum+i2;
+            sum=sum+R[i2];
             avg=abs(sum/n2);
         }
         cout<<"Average of array :"<<" "<<avg;
