@@ -44,15 +44,18 @@
   }
 
   void  MATHS :: FACT()     //the function FACT is used to find the factorials of the two numbers seperately by using for loopss
-  {               //ex of factorial , let n=4 , 4! = 4x3x2x1= 24 
+  {      
+                              //ex of factorial , let n=4 , 4! = 4x3x2x1= 24 
     for(int i =number1 ; i>0 ; i--)   //the for loop helps us to multiply each number from 1->n
     {
   	  fact1=fact1*i;      //remember to initialize variables that you'll be using in repetitive mulitplication as 1 and those of addition and subtraction as 0
-    }                       //as the variables contain garbage values by default which won't change for the variable unless specified (ie , input or initialization)
+    }  
+                         //as the variables contain garbage values by default which won't change for the variable unless specified (ie , input or initialization)
    for(int j =number2; j>0 ;j--)
     {
   	  fact2=fact2*j;
     }
+
    cout<<"Factorial of "<<" "<<number1<<" "<<" is "<<" "<<fact1<<endl;
    cout<<"Factorial of "<<" "<<number2<<" "<<" is "<<" "<<fact2<<endl;
   }
@@ -60,13 +63,15 @@
   void  MATHS :: DIVIS() //the function DIVIS is used to check if either input values are divisible by one another again after checking on which is greater
   {
   	 if((max(number1,number2))%(min(number1,number2))==0)   //we use the '%' operator as it gives us the remainder of the function while '/' gives us the quotient 
-  	 {              //if a number is divisible by other there will be no remainder , hence we said "(max(number1,number2)%min(number,number2)==0" then to print it's divisible
+  	 {                                                      //if a number is divisible by other there will be no remainder , hence we said "(max(number1,number2)%min(number,number2)==0" then to print it's divisible
   		cout<<max(number1,number2)<<" "<<"is divisible by"<<" "<<min(number1,number2)<<endl;
      }
+    
      else
    {
   	 cout<<"Neither numbers are divisible by one another "<<endl;
    }
+ 
   }
 
  void  MATHS :: PRIME()
@@ -110,12 +115,16 @@
         int a , b;
         cout<<"Enter two values a and b";
         cin>>a>>b;
+
         cout<<"a is :"<<" "<<a;
         cout<<"b is :"<<" "<<b;
+
         cout<<"a after incrementation :"<<" "<<a++;
         cout<<"b after incrementation :"<<" "<<b++;
+
         cout<<"a after decrementation :"<<" "<<a--;
         cout<<"b after decrementation :"<<" "<<b--;
+    
     }
 
 
@@ -163,7 +172,7 @@
             float arr1[100]; 
             int arr[100], tot,  s ,  first[20], second[20], SUM[20], c;
    public : void SWAP(); void LSEARCH(); void EVOD(); void ARRSUM(); void ARRAVG(); void ARRLARG(); void ARRSMAl(); 
-            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC(); void ARRPOS();
+            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC(); void ARRPOS(); void QUEUES();
  };
  void ARRAYS::SWAP()
  {
@@ -221,21 +230,22 @@
 
 void ARRAYS :: EVOD()
  {
-   
+    
     cin>>n;
+
     if(n>0)
     {
         if(n%2==0)
         {
             for(i=2 ; i<=n ; i=i+2)
             {
-                cout<<i<<" ";
+                cout<<n<<" "<<"Even numbers :"<<" "<<i<<" ";
             }
         } else
         {
-            for(i=2 ; i<n ; i=i+2)
+            for(i=3 ; i<=n ; i=i+2)
             {
-                cout<<i<<" ";
+                cout<<n<<" "<<"Odd numbers :"<<" "<<i<<" ";
             }
         }
     }
@@ -264,28 +274,44 @@ void ARRAYS :: EVOD()
     
 
     void ARRAYS :: ARRSUM()
-    {   int sum=0;
+    {   int sum=0 , loop3;
+        int L[10];
         cout<<"Enter number of array elements";
         cin>>n2;
 
+        cout<<"Enter  array elements";
+        
+        for(loop3=0;loop3<n2;loop3++)
+        {
+            cin>>L[loop3];
+        }
+
+
         for(i2=0;i2<n2;i2++)
         {
-            sum=sum+i2;
+            sum=sum+L[i2];
         }
-        cout<<"Sum of array :"<<" "<<n2;
+        cout<<"Sum of array :"<<" "<<sum;
     }
 
 
 
     void ARRAYS :: ARRAVG()
     {   
-        int sum=0;
+        int sum=0 , R[10] , loop4;
         cout<<"Enter number of array elements";
         cin>>n2;
 
+
+
+        for(loop4=0;loop4<n2;loop4++)
+        {
+            cin>>R[loop4];
+        }
+
         for(i2=0;i2<n2;i2++)
         {
-            sum=sum+i2;
+            sum=sum+R[i2];
             avg=abs(sum/n2);
         }
         cout<<"Average of array :"<<" "<<avg;
@@ -311,7 +337,9 @@ void ARRAYS :: EVOD()
        // Change < to > if you want to find the smallest element
        if(arr[0] < arr[i])
            arr[0] = arr[i];
+    
     }
+
     cout << "Largest element = " << arr[0];
     }
 
@@ -320,22 +348,27 @@ void ARRAYS :: EVOD()
      
     cout<<"Enter the Size for Array: ";
     cin>>tot;
+
     cout<<"Enter "<<tot<<" Array Elements: ";
+
     for(i=0; i<tot; i++)
-        cin>>arr1[i];
+    cin>>arr1[i];
+
     s = arr1[0];
+
     for(i=1; i<tot; i++)
     {
         if(s>arr1[i])
             s = arr1[i];
     }
+
     cout<<"\nSmallest Number = "<<s<<endl;
+
     }
 
-    void ARRAYS :: TWOARRSUM()
-    {
-       
-  
+
+void ARRAYS :: TWOARRSUM()
+{      
   cout << "Enter the number of elements in the array ";
   cin >> n;
 
@@ -351,9 +384,12 @@ void ARRAYS :: EVOD()
 
   cout << "Sum of elements of the arrays:" << endl;
 
-  for (c = 0; c < n; c++) {
+  for (c = 0; c < n; c++) 
+  {
+
     SUM[c] = first[c] + second[c];
     cout << SUM[c] << endl;
+  
   }
     }
 
@@ -500,6 +536,79 @@ void ARRAYS :: ARRPOS()
     }
 }
 
+void ARRAYS :: QUEUES()
+{
+
+int queue[100], n = 100, front = - 1, rear = - 1;
+int ch;
+
+   cout<<"1) Insert element to queue"<<endl;
+   cout<<"2) Delete element from queue"<<endl;
+   cout<<"3) Display all the elements of queue"<<endl;
+   cout<<"4) Exit"<<endl;
+   
+   do {
+      cout<<"Enter your choice : "<<endl;
+      cin>>ch;
+
+      switch (ch) 
+      {
+        case 1:
+         int val;
+
+        if (rear == n - 1)
+        cout<<"Queue Overflow"<<endl;
+        
+        else 
+        {
+        if (front == - 1)
+        front = 0;
+
+        cout<<"Insert the element in queue : "<<endl;
+        cin>>val;
+        rear++;
+        queue[rear] = val;
+        break;
+
+        case 2: 
+
+        if (front == - 1 || front > rear) 
+        {
+        cout<<"Queue Underflow ";
+        } 
+        else 
+        {
+        cout<<"Element deleted from queue is : "<< queue[front] <<endl;
+         front++;;
+         
+         break;
+        }
+
+         case 3: 
+
+         if (front == - 1)
+         cout<<"Queue is empty"<<endl;
+         else
+        {
+         cout<<"Queue elements are : ";
+         for (int i = front; i <= rear; i++)
+         cout<<queue[i]<<" ";
+         cout<<endl;
+         break;
+       
+         }
+         case 4: cout<<"Exit"<<endl;
+         break;
+         default: cout<<"Invalid choice"<<endl;
+      
+      }
+      }
+   
+   } while(ch!=4);
+
+}
+
+
 ////
 
 //OBJECTS
@@ -528,6 +637,7 @@ void OBJECTS :: STACKS()
 {  
      int stack[100], n=100, top=-1;
     int ch, val;
+
    cout<<"1) Push in stack"<<endl;
    cout<<"2) Pop from stack"<<endl;
    cout<<"3) Display stack"<<endl;
@@ -558,11 +668,15 @@ void OBJECTS :: STACKS()
                 cout<<"Stack Underflow"<<endl;
            }
   
-        else {
+        else 
+        {
+
       cout<<"The popped element is "<< stack[top] <<endl;
       top--;
+
             break;
          }
+
          case 3: 
          {
             if(top>=0)
@@ -571,7 +685,8 @@ void OBJECTS :: STACKS()
       for(int i=top; i>=0; i--)
       cout<<stack[i]<<" ";
       cout<<endl;
-   } else
+   }
+    else
    {
        cout<<"Stack is empty";
             break;
@@ -607,6 +722,7 @@ void OBJECTS :: STACKS()
      M.PRIME();
      M.CR();
      M.COMP();
+
  ///HELLO WORLD
    HELLO H;
    H.WORLD();
@@ -625,7 +741,7 @@ void OBJECTS :: STACKS()
  A.ARRCONC();
  A.LSEARCH();
  A.ARRPOS();
-
+ A.QUEUES();
  //Objects Programs
  OBJECTS O;
  O.POINT();
