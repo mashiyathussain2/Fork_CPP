@@ -337,7 +337,9 @@ void ARRAYS :: EVOD()
        // Change < to > if you want to find the smallest element
        if(arr[0] < arr[i])
            arr[0] = arr[i];
+    
     }
+
     cout << "Largest element = " << arr[0];
     }
 
@@ -346,22 +348,27 @@ void ARRAYS :: EVOD()
      
     cout<<"Enter the Size for Array: ";
     cin>>tot;
+
     cout<<"Enter "<<tot<<" Array Elements: ";
+
     for(i=0; i<tot; i++)
-        cin>>arr1[i];
+    cin>>arr1[i];
+
     s = arr1[0];
+
     for(i=1; i<tot; i++)
     {
         if(s>arr1[i])
             s = arr1[i];
     }
+
     cout<<"\nSmallest Number = "<<s<<endl;
+
     }
 
-    void ARRAYS :: TWOARRSUM()
-    {
-       
-  
+
+void ARRAYS :: TWOARRSUM()
+{      
   cout << "Enter the number of elements in the array ";
   cin >> n;
 
@@ -377,9 +384,12 @@ void ARRAYS :: EVOD()
 
   cout << "Sum of elements of the arrays:" << endl;
 
-  for (c = 0; c < n; c++) {
+  for (c = 0; c < n; c++) 
+  {
+
     SUM[c] = first[c] + second[c];
     cout << SUM[c] << endl;
+  
   }
     }
 
@@ -554,6 +564,7 @@ void OBJECTS :: STACKS()
 {  
      int stack[100], n=100, top=-1;
     int ch, val;
+
    cout<<"1) Push in stack"<<endl;
    cout<<"2) Pop from stack"<<endl;
    cout<<"3) Display stack"<<endl;
@@ -584,11 +595,15 @@ void OBJECTS :: STACKS()
                 cout<<"Stack Underflow"<<endl;
            }
   
-        else {
+        else 
+        {
+
       cout<<"The popped element is "<< stack[top] <<endl;
       top--;
+
             break;
          }
+
          case 3: 
          {
             if(top>=0)
@@ -597,7 +612,8 @@ void OBJECTS :: STACKS()
       for(int i=top; i>=0; i--)
       cout<<stack[i]<<" ";
       cout<<endl;
-   } else
+   }
+    else
    {
        cout<<"Stack is empty";
             break;
