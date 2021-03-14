@@ -791,6 +791,7 @@ void OBJECTS :: STACKS()
  A.LSEARCH();
  A.ARRPOS();
  A.QUEUES();
+ A.JUMBLE();
 	  
  //Objects Programs
 	  
