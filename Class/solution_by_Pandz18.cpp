@@ -1,4 +1,6 @@
 #include<iostream>
+#include <stdlib.h> 
+#include <time.h> 
   using namespace std;
 
  /////DIFFERENT MATHEMATICAL OPERATIONS PROGRAM/////////
@@ -172,7 +174,7 @@
             float arr1[100]; 
             int arr[100], tot,  s ,  first[20], second[20], SUM[20], c;
    public : void SWAP(); void LSEARCH(); void EVOD(); void ARRSUM(); void ARRAVG(); void ARRLARG(); void ARRSMAl(); 
-            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC(); void ARRPOS(); void QUEUES();
+            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC(); void ARRPOS(); void QUEUES(); void JUMBLE();
  };
  void ARRAYS::SWAP()
  {
@@ -608,7 +610,50 @@ int ch;
 
 }
 
+void ARRAYS :: JUMBLE()
+{
+    int JUM[100] , loopv , size;
 
+    cout<<"Enter suze of array";
+    cin>>size;
+
+    cout<<"Enter array elements";
+
+    for(loopv=0;loopv<size;loopv++)
+    {
+        cin>>JUM[loopv];
+    }
+
+	int n = sizeof(JUM) / sizeof(JUM[0]); 
+
+    
+    int temp = *a; 
+	*a = *b; 
+	*b = temp; 
+
+
+
+	for (int i = 0; i < n; i++) 
+	cout << arr[i] << " "; 
+	cout << "\n"; 
+
+
+	srand (time(NULL)); 
+
+
+	for (int i = n - 1; i > 0; i--) 
+	{ 
+		// Pick a random index from 0 to i 
+		int j = rand() % (i + 1); 
+
+		// Swap arr[i] with the element 
+		// at random index 
+		swap(&arr[i], &arr[j]); 
+	} 
+} 
+
+
+	
 ////
 
 //OBJECTS
