@@ -4,6 +4,7 @@
   using namespace std;
 
  /////DIFFERENT MATHEMATICAL OPERATIONS PROGRAM/////////
+
  class MATHS
  {
  private : int number1 , number2 , k , i, c=0;                 
@@ -12,6 +13,7 @@
   public : void INPUT(); void SUM(); void DIFF();  void PROD(); void DIV(); void FACT(); void DIVIS(); void PRIME();
            void CR(); void COMP();
  };
+
  void  MATHS :: INPUT() //the function INPUT is a function through which the user inputs two values as number1 and number2 using the input operator '>>'
   {
   	cout<<"enter two integer numbers"<<endl; //the \n takes the cursor to the next line after the current is executed 
@@ -612,7 +614,7 @@ int ch;
 
 void ARRAYS :: JUMBLE()
 {
-    int JUM[100] , loopv , size;
+    int JUM[100] , loopv , size , *a , *b ;
 
     cout<<"Enter suze of array";
     cin>>size;
@@ -644,11 +646,11 @@ void ARRAYS :: JUMBLE()
 	for (int i = n - 1; i > 0; i--) 
 	{ 
 		// Pick a random index from 0 to i 
-		int j = rand() % (i + 1); 
+		int j = rand() % JUM[i + 1]; 
 
 		// Swap arr[i] with the element 
 		// at random index 
-		swap(&arr[i], &arr[j]); 
+		swap(JUM[i], JUM[j]); 
 	} 
 } 
 
@@ -791,7 +793,6 @@ void OBJECTS :: STACKS()
  A.LSEARCH();
  A.ARRPOS();
  A.QUEUES();
- A.JUMBLE();
 	  
  //Objects Programs
 	  
