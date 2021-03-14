@@ -657,6 +657,7 @@ void ARRAYS :: JUMBLE()
 ////
 
 //OBJECTS
+
 class OBJECTS
 {
    private : int a , b, c;
@@ -691,6 +692,7 @@ void OBJECTS :: STACKS()
    do {
       cout<<"Enter choice: "<<endl;
       cin>>ch;
+	   
       switch(ch) 
       {
          case 1: 
@@ -755,22 +757,24 @@ void OBJECTS :: STACKS()
 
   int main()
   { 
-   //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS 
-  	 MATHS M; 
+   
+     //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS 
+     MATHS M; 
      M.INPUT();            
-  	 M.SUM();
-  	 M.DIFF();
-  	 M.PROD();
-  	 M.DIV();
-  	 M.FACT();
-  	 M.DIVIS();
+     M.SUM();
+     M.DIFF();
+     M.PROD();
+     M.DIV();
+     M.FACT();
+     M.DIVIS();
      M.PRIME();
      M.CR();
      M.COMP();
 
  ///HELLO WORLD
-   HELLO H;
-   H.WORLD();
+	  
+ HELLO H;
+ H.WORLD();
 
 //Arrays Programs
 
@@ -787,7 +791,9 @@ void OBJECTS :: STACKS()
  A.LSEARCH();
  A.ARRPOS();
  A.QUEUES();
+	  
  //Objects Programs
+	  
  OBJECTS O;
  O.POINT();
  O.STACKS();
