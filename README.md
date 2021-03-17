@@ -28,7 +28,7 @@ This repository contain the C++ program from basic to advance.
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/mashiyathussain2)
 
 ## Any feedback or suggestion:
-- Mail @[mashiyathussain2@gmail.com](mailto:mashiyathussain2@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+- Mail [mashiyathussain2@gmail.com](mailto:mashiyathussain2@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 
 ## ❤️ Thanks to our awesome contributors.
 
