@@ -18,17 +18,17 @@ Print the arrays of n elements for t number of cases
 #### *Sample* 
 >- 3
 
-   5
+>-    5
    
-   0   2   4 
+>-    0   2   4 
    
-   1
+>-    1
    
-   0 
+>-    0 
    
-  -16
+>-   -16
   
-  -16    -14   -12   -10    -8   -6    -4    -2    0 
+>-   -16    -14   -12   -10    -8   -6    -4    -2    0 
 
 
 ## Constraints
