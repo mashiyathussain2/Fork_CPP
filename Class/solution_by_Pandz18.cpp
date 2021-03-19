@@ -1,25 +1,37 @@
 #include<iostream>
-  using namespace std;
+#include <stdlib.h> 
+#include <time.h> 
+using namespace std;
 
  /////DIFFERENT MATHEMATICAL OPERATIONS PROGRAM/////////
- class MATHS
- {
+ 
+class MATHS
+{
+	
  private : int number1 , number2 , k , i, c=0;                 
   int sum=0 , prod , division , diff , fact1=1, fact2=1;  
 
   public : void INPUT(); void SUM(); void DIFF();  void PROD(); void DIV(); void FACT(); void DIVIS(); void PRIME();
            void CR(); void COMP();
  };
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
  void  MATHS :: INPUT() //the function INPUT is a function through which the user inputs two values as number1 and number2 using the input operator '>>'
   {
   	cout<<"enter two integer numbers"<<endl; //the \n takes the cursor to the next line after the current is executed 
   	 cin>>number1>>number2;
   }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
   void  MATHS :: SUM()        //the function SUM is a function in which we will calulate the sum of input using the '+' operator 
   {
   	sum=number1+number2;
   	cout<<"Sum of "<<" "<<number1<<" "<<"and"<<" "<<number2<<" "<<"is :" <<sum<<endl;
   }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
   void  MATHS :: DIFF() //the function DIFF is a function through which we will find the difference of the two inputs depending on which is larger using the '-' operator
   {
@@ -29,11 +41,15 @@
 
   }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
   void  MATHS :: PROD() //the function PROD is used to find the product of two functions by using the '*' operator 
   {
   	prod=number1*number2;
   	 cout<<"Product of "<<" "<<number1<<" "<<"and"<<" "<<number2<<" "<<"is :" <<prod<<endl;
   }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
   void  MATHS :: DIV() //the function DIV is a function through which we will find the quotient on dividing the two inputs after checking which is larger using the '/' operator
   {
@@ -42,6 +58,8 @@
   	 cout<<"Division of "<<" "<<(max(number1,number2))<<" "<<"by"<<" "<<(min(number1,number2))<<" "<<"is :" <<division<<endl;
 
   }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
   void  MATHS :: FACT()     //the function FACT is used to find the factorials of the two numbers seperately by using for loopss
   {      
@@ -60,6 +78,8 @@
    cout<<"Factorial of "<<" "<<number2<<" "<<" is "<<" "<<fact2<<endl;
   }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
   void  MATHS :: DIVIS() //the function DIVIS is used to check if either input values are divisible by one another again after checking on which is greater
   {
   	 if((max(number1,number2))%(min(number1,number2))==0)   //we use the '%' operator as it gives us the remainder of the function while '/' gives us the quotient 
@@ -73,6 +93,8 @@
    }
  
   }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
  void  MATHS :: PRIME()
  {
@@ -110,6 +132,8 @@
 
  }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
     void MATHS :: CR()
     {
         int a , b;
@@ -127,6 +151,7 @@
     
     }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
  void MATHS :: COMP()
  {
@@ -172,9 +197,12 @@
             float arr1[100]; 
             int arr[100], tot,  s ,  first[20], second[20], SUM[20], c;
    public : void SWAP(); void LSEARCH(); void EVOD(); void ARRSUM(); void ARRAVG(); void ARRLARG(); void ARRSMAl(); 
-            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC(); void ARRPOS(); void QUEUES();
+            void TWOARRSUM();  void ARRSPLIT(); void ARRCONC(); void ARRPOS(); void QUEUES(); void JUMBLE();
  };
- void ARRAYS::SWAP()
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+void ARRAYS::SWAP()
  {
     cout<<"Enter number of elements in the array";
     cin>>n;
@@ -194,6 +222,8 @@
 
      }
  } 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
  void ARRAYS :: LSEARCH()
  {  
@@ -227,6 +257,7 @@
  	
          }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 void ARRAYS :: EVOD()
  {
@@ -272,6 +303,7 @@ void ARRAYS :: EVOD()
 
     }
     
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
     void ARRAYS :: ARRSUM()
     {   int sum=0 , loop3;
@@ -295,6 +327,7 @@ void ARRAYS :: EVOD()
     }
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
     void ARRAYS :: ARRAVG()
     {   
@@ -316,6 +349,8 @@ void ARRAYS :: EVOD()
         }
         cout<<"Average of array :"<<" "<<avg;
     }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
     void ARRAYS :: ARRLARG()
     {
@@ -343,6 +378,8 @@ void ARRAYS :: EVOD()
     cout << "Largest element = " << arr[0];
     }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
     void ARRAYS :: ARRSMAl()
     {
      
@@ -366,6 +403,7 @@ void ARRAYS :: EVOD()
 
     }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 void ARRAYS :: TWOARRSUM()
 {      
@@ -392,6 +430,8 @@ void ARRAYS :: TWOARRSUM()
   
   }
     }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 void ARRAYS :: ARRSPLIT()
 {   
@@ -468,6 +508,7 @@ else
 }
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 void ARRAYS :: ARRCONC()
 {
@@ -517,6 +558,8 @@ void ARRAYS :: ARRCONC()
     }
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
 void ARRAYS :: ARRPOS()
 {   
     int size , loop1 , Q[10] ;
@@ -535,6 +578,8 @@ void ARRAYS :: ARRPOS()
         cout<<Q[loop1]<<" "<<"is found at"<<loop1<<"th position";
     }
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 void ARRAYS :: QUEUES()
 {
@@ -608,15 +653,62 @@ int ch;
 
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
-////
+void ARRAYS :: JUMBLE()
+{
+    int JUM[100] , loopv , size , *a , *b ;
 
-//OBJECTS
+    cout<<"Enter suze of array";
+    cin>>size;
+
+    cout<<"Enter array elements";
+
+    for(loopv=0;loopv<size;loopv++)
+    {
+        cin>>JUM[loopv];
+    }
+
+	int n = sizeof(JUM) / sizeof(JUM[0]); 
+
+    
+    int temp = *a; 
+	*a = *b; 
+	*b = temp; 
+
+
+
+	for (int i = 0; i < n; i++) 
+	cout << arr[i] << " "; 
+	cout << "\n"; 
+
+
+	srand (time(NULL)); 
+
+
+	for (int i = n - 1; i > 0; i--) 
+	{ 
+		// Pick a random index from 0 to i 
+		int j = rand() % JUM[i + 1]; 
+
+		// Swap arr[i] with the element 
+		// at random index 
+		swap(JUM[i], JUM[j]); 
+	} 
+} 
+
+
+	
+
+//////////OBJECTS////////////
+
 class OBJECTS
 {
    private : int a , b, c;
-   public : void POINT(); void STACKS();
+   public : void POINT(); void STACKS();  
 };
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 void OBJECTS :: POINT()
 {
@@ -633,7 +725,10 @@ void OBJECTS :: POINT()
     cout << "Address of "<<" "<<a<<" :"<<" "<< &b << endl;
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
 void OBJECTS :: STACKS()
+
 {  
      int stack[100], n=100, top=-1;
     int ch, val;
@@ -646,6 +741,7 @@ void OBJECTS :: STACKS()
    do {
       cout<<"Enter choice: "<<endl;
       cin>>ch;
+	   
       switch(ch) 
       {
          case 1: 
@@ -708,24 +804,81 @@ void OBJECTS :: STACKS()
 
    
 
+///////////////////Prime Triangle/////////////////////////////////
+
+class  Serieses 
+{  
+    private : int i,j,k,l,n;
+    public : void NUMTRI();     void ALPTRI();
+
+};
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+void Serieses :: NUMTRI()
+{
+
+cout<<"Enter the Range=";    
+cin>>n;    
+for(i=1;i<=n;i++)    
+{    
+for(j=1;j<=n-i;j++)    
+{    
+cout<<" ";    
+}    
+for(k=1;k<=i;k++)    
+{    
+cout<<k;    
+}    
+for(l=i-1;l>=1;l--)    
+{    
+cout<<l;    
+}    
+cout<<"\n";    
+}    
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+void Serieses :: ALPHTRI()
+{
+     char ch='A';    
+    int i, j, k, m;    
+    for(i=1;i<=5;i++)    
+    {    
+        for(j=5;j>=i;j--)    
+            cout<<" ";    
+        for(k=1;k<=i;k++)    
+            cout<<ch++;    
+            ch--;    
+        for(m=1;m<i;m++)    
+            cout<<--ch;    
+        cout<<"\n";    
+        ch='A';    
+    }    
+}
+
+
   int main()
-  { 
-   //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS 
-  	 MATHS M; 
+  
+  {  
+     //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS 
+     MATHS M; 
      M.INPUT();            
-  	 M.SUM();
-  	 M.DIFF();
-  	 M.PROD();
-  	 M.DIV();
-  	 M.FACT();
-  	 M.DIVIS();
+     M.SUM();
+     M.DIFF();
+     M.PROD();
+     M.DIV();
+     M.FACT();
+     M.DIVIS();
      M.PRIME();
      M.CR();
      M.COMP();
 
  ///HELLO WORLD
-   HELLO H;
-   H.WORLD();
+	  
+ HELLO H;
+ H.WORLD();
 
 //Arrays Programs
 
@@ -742,10 +895,18 @@ void OBJECTS :: STACKS()
  A.LSEARCH();
  A.ARRPOS();
  A.QUEUES();
+	  
  //Objects Programs
+	  
  OBJECTS O;
  O.POINT();
  O.STACKS();
- 
+
+///////////SERIESES/////////////
+Serieses  S ;
+S.NUMTRI();
+S.ALPTRI():
+
 return 0;
-   }
+  
+ }
