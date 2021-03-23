@@ -28,9 +28,9 @@ Print the swapped array if swapping is possible , if not print *invalid number o
 >- 1 1
 
 
-#### *Sample Input 2*
+#### *Sample Input 3*
 >- -3
-#### *Sample Output 2*
+#### *Sample Output 3*
 >- invalid number of inputs
 
 
