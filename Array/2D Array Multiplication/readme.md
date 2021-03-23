@@ -6,6 +6,7 @@ Enter rows and columns for first matrix: 4 4
 Enter rows and columns for second matrix: 4 4
 
 Enter elements of matrix 1:
+
 Enter element a11 : 6
 Enter element a12 : 2
 Enter element a13 : 3
@@ -24,6 +25,7 @@ Enter element a43 : 3
 Enter element a44 : 6
 
 Enter elements of matrix 2:
+
 Enter element b11 : 2
 Enter element b12 : 8
 Enter element b13 : 1
@@ -55,20 +57,52 @@ Output Matrix:
 **Example 2:**
 
 ```
-Input: n = 3
-Output: 2
-Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
+Enter rows and columns for first matrix: 2 2
+Enter rows and columns for second matrix: 2 2 
+
+Enter elements of matrix 1:
+
+Enter element a11 : 5
+Enter element a12 : 7
+Enter element a21 : 1
+Enter element a22 : 0
+
+Enter elements of matrix 2:
+
+Enter element b11 : 1
+Enter element b12 : -8 
+Enter element b21 : 4
+Enter element b22 : 1
+
+Output Matrix: 
+
+33  -33
+
+1   -8
 ```
 
 **Example 3:**
+
 ```
-Input: n = 4
-Output: 3
-Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
+Enter rows and columns for first matrix: 1 3
+Enter rows and columns for second matrix: 3
+1
+
+Enter elements of matrix 1:
+
+Enter element a11 : 5 
+Enter element a12 : 5
+Enter element a13 : 112
+
+Enter elements of matrix 2:
+
+Enter element b11 : 15
+Enter element b21 : 12
+Enter element b31 : 1
+
+Output Matrix: 
+
+247
+ 
 ```
 
-**Constraints:**
-```
- 0 <= n <= 30
- 
- ```
