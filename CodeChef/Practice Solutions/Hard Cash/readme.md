@@ -17,7 +17,7 @@ Of course, the number of coins placed in the last N−c bags must not exceed the
 first c bags, but there may be some coins left over. Let's denote the number of these coins by R. You should find 
 the smallest possible value of R.
 
-## Input
+### Input
 
 The first line of the input contains a single integer T denoting the number of test cases. The description of T 
 test cases follows : 
@@ -44,13 +44,13 @@ For each test case, print a single line containing one integer ― the smallest 
 
 ### Subtasks
 
-### Subtask #1 (10 points):
+#### Subtask #1 (10 points):
 K=2
 
-### Subtask #2 (20 points):
+#### Subtask #2 (20 points):
 N≤3
 
-### Subtask #3 (70 points): 
+#### Subtask #3 (70 points): 
 original constraints
 
 ### Example Input
@@ -73,10 +73,9 @@ original constraints
 
 ### Explanation
 
-### Example case 1: 
-One of the possible solutions is to choose c=4 , remove 1 , 0 , 4  and 13 coins from bags 1, 2
-, 3 and 4 respectively, and add 13  coins to bag 5 .
+#### Example case 1: 
+One of the possible solutions is to choose c=4 , remove 1 , 0 , 4  and 13 coins from bags 1, 2 , 3 and 4 respectively, and add 13  coins to bag 5 .
 
-### Example case 2: 
+#### Example case 2: 
 The optimal solution is to choose c=3 and remove one coin from each bag.
 
