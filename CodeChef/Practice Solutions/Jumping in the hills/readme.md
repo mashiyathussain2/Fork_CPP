@@ -62,9 +62,15 @@ For each test case, print a single line containing one integer — the index of 
 
 ## Explanation
 
-### Example case 1: Chef can jump to second hill because it's higher by no more than U=3 than first hill, to jump to third hill Chef has to use parachute because it's lower than second hill by 3 which is more than D=2, Chef can't jump to fourth hill because it's higher than third hill by 4 which is more than U=3
+### Example case 1:
 
-### Example case 2: All hills are of the same height, so chef can reach the last hill with no problems.
+Chef can jump to second hill because it's higher by no more than U=3 than first hill, to jump to third hill Chef has to use parachute because it's lower than second hill by 3 which is more than D=2, Chef can't jump to fourth hill because it's higher than third hill by 4 which is more than U=3
 
-### Example case 3: Chef can't jump to second hill because it's too high for him
+### Example case 2:
+
+All hills are of the same height, so chef can reach the last hill with no problems.
+
+### Example case 3: 
+
+Chef can't jump to second hill because it's too high for him
 
