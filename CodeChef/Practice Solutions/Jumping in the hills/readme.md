@@ -32,7 +32,7 @@ For each test case, print a single line containing one integer — the index of 
 
 ## Subtasks
 
-### Subtask #1 (100 points): original constraints
+Subtask #1 (100 points): original constraints
 
 ## Example
 
