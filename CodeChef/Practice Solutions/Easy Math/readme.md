@@ -13,7 +13,9 @@ he is wrong by finding the correct answer ― the maximum possible sum of digits
 ## Input
 
 . The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+
 . The first line of the input contains a single integer N .
+
 . The second line contains N space-separated integers A1,A2,…,AN .
 
 ## Output
