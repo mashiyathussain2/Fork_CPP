@@ -25,15 +25,22 @@ the pairwise differences even.
 1≤ai≤105
 
 ## Subtasks
-### Subtask #1 (100 points): original constraints
+### Subtask #1 (100 points):
+original constraints
 
 ## Sample Input:
+
 2
+
 2
-2 4
+
+2   4
+
 3
-4 1 2
+
+4   1   2
 
 ## Sample Output:
 0
+
 1
