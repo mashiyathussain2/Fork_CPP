@@ -19,7 +19,7 @@ One integer, the nth term of the series mod 1000000007
 ## Example
 
 ## Input:
-7 5
+7  5
 
 ## Output:
 9
@@ -28,5 +28,6 @@ One integer, the nth term of the series mod 1000000007
 
 ## Explanation
 
-### Example case 1. The series is as follows {1, 1, 1, 1, 1, 5, 9}
+### Example case 1 :
+The series is as follows {1, 1, 1, 1, 1, 5, 9}
 
