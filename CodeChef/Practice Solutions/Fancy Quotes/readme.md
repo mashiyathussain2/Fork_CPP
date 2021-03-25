@@ -46,7 +46,9 @@ regularly fancy
 
 ## Explanation
 
-### Example case 1: "i do not have any fancy quotes"
+### Example case 1:
+"i do not have any fancy quotes"
 
-### Example case 2: The word "not" does not appear in the given quote.
+### Example case 2: 
+The word "not" does not appear in the given quote.
 
