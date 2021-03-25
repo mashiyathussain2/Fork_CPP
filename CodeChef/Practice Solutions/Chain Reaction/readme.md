@@ -1,7 +1,5 @@
 ## PROBLEM STATEMENT 
-You are given a grid with R rows (numbered 1 through R) and C columns (numbered 1 through C ). A cell in row r
-and column c is denoted by (r,c) . Two cells in the grid are adjacent if they have a common side. For each valid i
-and j , there is a value ai,j written in cell ai,j .
+You are given a grid with R rows (numbered 1 through R) and C columns (numbered 1 through C ). A cell in row r and column c is denoted by (r,c) . Two cells in the grid are adjacent if they have a common side. For each valid i and j , there is a value ai,j written in cell ai,j .
 
 A cell in the grid is stable if the number of cells in the grid which are adjacent to this cell is strictly greater 
 than the value written in this cell. The whole grid is stable if all cells in the grid are stable.
@@ -19,20 +17,32 @@ For each test case, print a single line containing the string "Stable" if the gr
 
 ## Constraints
 1≤T≤3,000
+
 3≤R,C≤10
+
 0≤ai,j≤4 for each valid i,j
 
 ## Example Input
 2
-3 3
-1 2 1
-2 3 2
-1 2 1
-3 4
-0 0 0 0
-0 0 0 0
-0 0 4 0
+
+3   3
+
+1   2   1
+
+2   3   2
+
+1   2   1
+
+3   4
+
+0   0   0   0
+
+0   0   0   0
+
+0   0   4   0
 
 ## Example Output
+
 Stable
+
 Unstable
