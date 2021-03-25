@@ -27,22 +27,33 @@ original constraints
 
 ## Input
 5
+
 1
+
 2
+
 3
+
 4
+
 5
 
 ## Output
 7
-1 2
-1 2 4
-1 2 4 16
-3 2 15 6 10
+
+1   2
+
+1   2   4
+
+1   2   4   16
+
+3   2   15  6   10
 
 ## Explanation
 
-Example 1 and 2. Any set of size less than or equal to 2 is good by definition.
+### Example 1 and 2 : 
+Any set of size less than or equal to 2 is good by definition.
 
-Example 3 onwards. For each pair of elements in the set, you can see that their sum doesn't exist in the set.
+### Example 3 onwards :
+For each pair of elements in the set, you can see that their sum doesn't exist in the set.
 
