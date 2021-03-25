@@ -16,18 +16,17 @@ of the given type.
 
 ## Output
 
-For each test case, print a single line containing the string "YES" if it is possible to change S to R
- or "NO" if it is impossible (without quotes).
+For each test case, print a single line containing the string "YES" if it is possible to change S to R or "NO" if it is impossible (without quotes).
 
 ## Constraints
 
-1≤T≤400
+. 1≤T≤400
 
-1≤N≤100
+. 1≤N≤100
 
-|S|=|R|=N
+. |S|=|R|=N
  
-S and R will consist of only '1' and '0'
+. S and R will consist of only '1' and '0'
 
 ## Example Input
 
@@ -52,6 +51,9 @@ YES
 NO
 
 ## Explanation
-### Example case 1: Chef can perform one operation with (i,j)=(1,5) . Then, S will be "01001", which is equal to R .
 
-### Example case 2: There is no sequence of operations which would make S equal to R .
+### Example case 1:
+Chef can perform one operation with (i,j)=(1,5) . Then, S will be "01001", which is equal to R .
+
+### Example case 2: 
+There is no sequence of operations which would make S equal to R .
