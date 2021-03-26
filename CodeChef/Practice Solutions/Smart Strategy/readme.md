@@ -21,7 +21,9 @@ For every test case in single line output Q integers - for each Xi output result
 
 ## Constraints
 1 ≤ T ≤ 1000
+
 1 ≤ N, Q ≤ 105
+
 1 ≤ Xi, Di ≤ 109
 
 Sum of N over all test cases ≤ 3*105
