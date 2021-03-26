@@ -26,17 +26,24 @@ For each test case, output "safe" if there is no point in time, when the robots 
 
 ## Constraints
 1≤T≤10
+
 1≤|s|≤105
+
 1≤sa,sb≤|s|
 
 ## Sample Input:
 2
+
 A..B
-1 1
+
+1   1
+
 A...B
-1 1
+
+1   1
 
 
 ## Sample Output:
 safe
+
 unsafe
