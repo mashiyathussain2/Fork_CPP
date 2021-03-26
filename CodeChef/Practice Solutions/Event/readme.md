@@ -24,8 +24,11 @@ For each test case, print a single line containing:
 
 ## Constraints
 1≤T≤10,000
+
 1≤L≤R≤100
+
 S is one of the strings "saturday", "sunday", "monday", "tuesday", "wednesday", "thursday" or "friday"
+
 E is one of the strings "saturday", "sunday", "monday", "tuesday", "wednesday", "thursday" or "friday"
 
 ## Subtasks
