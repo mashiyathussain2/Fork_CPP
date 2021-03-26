@@ -29,15 +29,21 @@ S is one of the strings "saturday", "sunday", "monday", "tuesday", "wednesday", 
 E is one of the strings "saturday", "sunday", "monday", "tuesday", "wednesday", "thursday" or "friday"
 
 ## Subtasks
-### Subtask #1 (100 points): original constraints
+### Subtask #1 (100 points): 
+original constraints
 
 ## Example Input
 3
+
 saturday sunday 2 4
+
 monday wednesday 1 20
+
 saturday sunday 3 5
 
 ## Example Output
 2
+
 many
+
 impossible
