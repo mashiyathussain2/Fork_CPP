@@ -16,32 +16,43 @@ The first and only line of each test case contains a single integer N .
 ## Output
 For each test case, print a single line containing one integer ― the maximum possible value of the final number in the list modulo 109+7 .
 
-Constraints
+## Constraints
 1≤T≤100,000
+
 1≤N≤1,000,000
 
 ## Subtasks
 
-### Subtask #1 (20 points): 1≤T,N≤25
+### Subtask #1 (20 points): 
+1≤T,N≤25
 
-### Subtask #2 (80 points): original constraints
+### Subtask #2 (80 points): 
+original constraints
 
 ## Example Input
 3
+
 1
+
 2
+
 4
 
 ## Example Output
 1
+
 5
+
 119
 
 ## Explanation
 
-### Example case 1: L=[1]
+### Example case 1: 
+L=[1]
 
-### Example case 2: L=[1,2]→[1+2+1⋅2]
+### Example case 2: 
+L=[1,2]→[1+2+1⋅2]
 
-### Example case 3: L=[1,2,3,4]→[2,3,9]→[3,29]→[119] . The chosen elements in each step are in bold.
+### Example case 3:
+L=[1,2,3,4]→[2,3,9]→[3,29]→[119] . The chosen elements in each step are in bold.
 
