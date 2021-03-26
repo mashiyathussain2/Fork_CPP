@@ -22,17 +22,25 @@ of the output string.
 
 ## Sample Input:
 5
-1 1 2
-1 3 2
-2 2 2
-100 100 201
-11 22 33
+
+1   1   2
+
+1   3   2
+
+2   2   2
+
+100   100   201
+11  22   33
 
 ## Sample Output:
 YES
+
 YES
+
 NO
+
 NO
+
 YES
 
 ## Explanation:
