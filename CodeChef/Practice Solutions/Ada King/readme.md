@@ -18,6 +18,7 @@ The first and only line of each test case contains three space-separated integer
 
 
 ## Output
+
 For each test case, print a single line containing one integer — the number of squares the king can visit.
 
 ## Constraints
@@ -30,7 +31,7 @@ For each test case, print a single line containing one integer — the number of
 
 1
 
-1 3 1
+1   3   1
 
 Example Output
 
