@@ -27,20 +27,31 @@ For each test case, print a single line containing one integer ― the minimum n
 
 ## Subtasks
 
-## Subtask #1 (1 points): C1=C2=…=CN
+## Subtask #1 (1 points): 
+C1=C2=…=CN
 
-## Subtask #2 (99 points): original constraints
+## Subtask #2 (99 points): 
+original constraints
 
 ## Example Input
 3
+
 3
-2 2 2
+
+2   2   2
+
 3
-1 2 3
+
+1   2   3
+
 4
-2 3 4 5
+
+2   3   4   5
+
 
 ## Example Output
 4
+
 3
+
 7
