@@ -34,7 +34,7 @@ Sum of N over all tests is at most 106
 
 Sum of M over all tests is at most 106
 
-##Sample Input:
+## Sample Input:
 
 3
 
