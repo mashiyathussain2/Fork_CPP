@@ -23,34 +23,43 @@ If we would have sold the app at 14 (the lowest price), then all customers could
 But total revenue would be = 14*4 = 56 (which is lower than 60).
 
 
-##Input format
+## Input format
 Line 1 : N, the total number of potential customers.
 
 Lines 2 to N+1: Each line has the budget of a potential customer.
 
 
-Output format
+## Output format
 The output consists of a single integer, the maximum possible revenue you can earn from selling your app.
 
 
-##Sample Input 1
+## Sample Input 1
 4
+
 30
+
 20
+
 53
+
 14
 
-##Sample Output 1
+## Sample Output 1
 60
 
 ##Sample Input 2
 5
+
 40
+
 3
+
 65
+
 33
+
 21
 
-##Sample Output 2
+## Sample Output 2
 99
 
