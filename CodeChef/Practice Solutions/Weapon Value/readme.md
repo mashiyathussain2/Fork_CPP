@@ -1,7 +1,5 @@
 ## PROBLEM STATEMENT 
-A competition with N participants (numbered 1 through N ) is taking place in Chefland. There are N−1
-rounds in the competition; in each round, two arbitrarily chosen contestants battle, one of them loses
-and drops out of the competition.
+A competition with N participants (numbered 1 through N ) is taking place in Chefland. There are N−1 rounds in the competition; in each round, two arbitrarily chosen contestants battle, one of them loses and drops out of the competition.
 
 There are 10 types of weapons (numbered 1 through 10 ). You are given N
 strings S1,S2,…,SN ; for each valid i and j , the j -th character of Si 
@@ -30,20 +28,28 @@ of weapons the winner could have.
 
 ## Constraints
 1≤T≤10
+
 1≤N≤105
+
 |Si|=10 for each valid i
 
 ## Subtasks
 
-### Subtask #1 (30 points): 1≤N≤10
+### Subtask #1 (30 points): 
+1≤N≤10
 
-### Subtask #2 (70 points): original constraints
+### Subtask #2 (70 points): 
+original constraints
 
 ## Example Input
 1
+
 3
+
 1110001101
+
 1010101011
+
 0000000011
 
 ## Example Output
