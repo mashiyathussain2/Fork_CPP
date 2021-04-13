@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-     int n, num, digit, rev = 0;
+     int n, num, dig, rev = 0;
 
      cout << "Enter a positive number: ";
      cin >> num;
@@ -12,8 +12,8 @@ int main()
 
      do
      {
-         digit = num % 10;
-         rev = (rev * 10) + digit;
+         dig = num % 10;
+         rev = (rev * 10) + dig;
          num = num / 10;
      } while (num != 0);
 
