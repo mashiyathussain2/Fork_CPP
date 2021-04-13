@@ -21,5 +21,7 @@ Output: 2
 ### Constraints:
 
 n == nums.length
+
 1 <= n <= 5 * 104
+
 -231 <= nums[i] <= 231 - 1
