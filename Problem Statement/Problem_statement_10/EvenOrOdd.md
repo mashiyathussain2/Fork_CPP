@@ -46,5 +46,5 @@ If _n_ is negative and odd , print  all negative even numbers from -n+1 to -2 .
 >-  invalid
 
 
-##Constraints
+## Constraints
 >- -1000000 ≤ N ≤ 1000000 , N!=0
