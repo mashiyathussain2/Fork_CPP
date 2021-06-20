@@ -32,3 +32,9 @@ This repository contain the C++ program from basic to advance.
 
 ## ❤️ Thanks to our awesome contributors.
 
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Pandz18"><img src="https://avatars0.githubusercontent.com/u/58665834?s=400&u=eabe398d2e26def53a659354d2c27d222859babb&v=4" width="100px;" alt=""/><br /><sub><b>Pandz18</b></sub></a><br /> </td>
+<td align="center"><a href="https://github.com/mashiyathussain2"><img src="https://avatars.githubusercontent.com/u/39239687?v=4" width="100px;" alt=""/><br /><sub><b>mashiyathussain2</b></sub></a><br /> </td>
+  </tr>
+  </table>
