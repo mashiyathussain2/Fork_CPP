@@ -1,5 +1,6 @@
 Given a number N.Find if the digit sum(or sum of digits) of N is a Palindrome number or not.
-Note:A Palindrome number is a number which stays the same when reversed.Example- 121,131,7 etc.
+
+Note:A Palindrome number is a number which stays the same when reversed. Example- 121,131,7 etc.
 
 Example 1:
 
