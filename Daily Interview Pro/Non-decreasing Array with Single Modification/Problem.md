@@ -19,14 +19,14 @@ Here is the function signature:
 
 def check(lst):
  
- # Fill this in.
+ #Fill this in.
 
 print check([13, 4, 7])
 
-# True
+#True
 
 print check([5,1,3,2,5])
 
-# False
+#False
 
 Can you find a solution in O(n) time?
