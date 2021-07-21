@@ -11,10 +11,10 @@ return true since 4 + 1 = 5.
 
 def two_sum(list, k):
 
-  # Fill this in.
+  #Fill this in.
 
 print two_sum([4,7,1,-3,2], 5)
 
-# True
+#True
 
 Try to do it in a single pass of the list.

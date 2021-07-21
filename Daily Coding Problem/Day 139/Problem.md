@@ -8,7 +8,7 @@ peek(). peek shows the next element that would be returned
 on next().
 
 Here is the interface:
-
+```
 class PeekableInterface(object):
 
     def __init__(self, iterator):
@@ -26,3 +26,4 @@ class PeekableInterface(object):
     def hasNext(self):
         
         pass
+```
