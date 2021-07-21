@@ -9,9 +9,9 @@ Output: 1
 Here's the function signature:
 
 def singleNumber(nums):
-  # Fill this in.
+  #Fill this in.
 
 print singleNumber([4, 3, 2, 4, 1, 3, 2])
-# 1
+#1
 
 Challenge: Find a way to do this using O(1) memory.
