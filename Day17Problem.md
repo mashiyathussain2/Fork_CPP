@@ -5,7 +5,7 @@ This problem was asked by Google.
 Suppose we represent our file system by a string in the following manner:
 
 The string "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" represents:
-
+```
 dir
    
     subdir1
@@ -13,7 +13,7 @@ dir
     subdir2
     
           file.ext
-
+```
 The directory dir contains an empty sub-directory subdir1 and a sub-directory 
 subdir2 containing a file file.ext.
 
