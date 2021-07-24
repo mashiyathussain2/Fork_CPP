@@ -27,4 +27,4 @@ Output:
 
 Explanation:
 
-Addition os 10 and 20 is 30.
+Addition is 10 and 20 is 30.
