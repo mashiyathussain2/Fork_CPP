@@ -30,3 +30,5 @@ The idea is to start from the rightmost bit and one by one check value of every 
 2) Initialize two variables; i = 1 (for looping) and pos = 1 (to find position of set bit)
 3) Inside loop, do bitwise AND of i and number ‘N’. If value of this operation is true, then “pos” bit is set, so break the loop and return position. Otherwise, increment “pos” by 1 and left shift i by 1 and repeat the procedure. 
 ```
+
+[Problem Link](https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1)
