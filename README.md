@@ -2,6 +2,19 @@
 
 This repository contain the C++ program from basic to advance.
 
+## 1. Array
+* [Sum Of Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Sum_of_elements.cpp)
+* [Reverse Array](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Reverse%20Array.cpp)
+* [Remove Duplicate Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Remove%20Duplicate%20Elements.cpp)
+* [Left Rotate By One](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Left%20Rotate%20By%20One.cpp)
+* [Trapping Rain Water](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Array/Trapping%20Rain%20Water)
+* [Max Number In Array](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Array/Max%20Number%20In%20Array)
+* [Left Rotate Array By d](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Left%20Rotate%20Array%20By%20d.cpp)
+* [Right Rotation By d](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Right%20Rotation%20By%20d.cpp)
+
+
+
+
 
 ## Contribution Guidelines :
 
