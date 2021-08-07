@@ -2,7 +2,7 @@
 
 This repository contain the C++ program from basic to advance.
 
-## 1. Array
+### 1. Array
 * [Sum Of Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Sum_of_elements.cpp)
 * [Reverse Array](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Reverse%20Array.cpp)
 * [Remove Duplicate Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Remove%20Duplicate%20Elements.cpp)
@@ -11,6 +11,10 @@ This repository contain the C++ program from basic to advance.
 * [Max Number In Array](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Array/Max%20Number%20In%20Array)
 * [Left Rotate Array By d](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Left%20Rotate%20Array%20By%20d.cpp)
 * [Right Rotation By d](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Right%20Rotation%20By%20d.cpp)
+* [Best Time to Buy and Sell Stock](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Array/Best%20Time%20to%20Buy%20and%20Sell%20Stock)
+* [Is Sorted](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Is%20Sorted.cpp)
+* [Count Frequency Of All Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Count%20Frequency%20Of%20All%20Elements.cpp)
+* [Maximum Consecutive 1's in a Binary Array](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Maximum%20Consecutive%201's%20in%20a%20Binary%20Array.cpp)
 
 
 
