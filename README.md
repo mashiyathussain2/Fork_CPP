@@ -31,6 +31,11 @@ This repository contain the C++ program from basic to advance.
 * [Rat In A Maze](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Backtracking/Rat%20In%20A%20Maze.cpp)
 
 
+#### 3. Binary Index Tree
+* [Inversion Count](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Index%20Tree/Inversion%20Count.cpp)
+* [Prefix Max Element Query](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Index%20Tree/Prefix%20Max%20Element%20Query.cpp)
+* [Range Sum Query](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Index%20Tree/Range%20Sum%20Query.cpp)
+
 
 
 
