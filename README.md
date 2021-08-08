@@ -2,7 +2,7 @@
 
 This repository contain the C++ program from basic to advance.
 
-### 1. Array
+#### 1. Array
 * [Sum Of Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Sum_of_elements.cpp)
 * [Reverse Array](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Reverse%20Array.cpp)
 * [Remove Duplicate Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Remove%20Duplicate%20Elements.cpp)
@@ -15,6 +15,16 @@ This repository contain the C++ program from basic to advance.
 * [Is Sorted](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Is%20Sorted.cpp)
 * [Count Frequency Of All Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Count%20Frequency%20Of%20All%20Elements.cpp)
 * [Maximum Consecutive 1's in a Binary Array](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Maximum%20Consecutive%201's%20in%20a%20Binary%20Array.cpp)
+* [Moving All Zeros To The End](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Moving%20All%20Zeros%20To%20The%20End.cpp)
+* [Linear search](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Linear_search.cpp)
+* [Leaders In Array](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Leaders%20In%20Array.cpp)
+* [Largest Element](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Largest%20Element.cpp)
+* [Insert Element](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Insert_element.cpp)
+* [Cyclically rotate an array by one](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Array/Problem%201)
+
+
+#### 2. Backtracking
+
 
 
 
