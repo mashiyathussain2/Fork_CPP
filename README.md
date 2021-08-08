@@ -24,6 +24,11 @@ This repository contain the C++ program from basic to advance.
 
 
 #### 2. Backtracking
+* [N-Queen Problem](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Backtracking/N-Queen%20Problem)
+* [Palindromic Partitions](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Backtracking/Palindromic%20Partitions)
+* [Print all permutations of a given string](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Backtracking/Print%20all%20permutations%20of%20a%20given%20string)
+* [Word Break Problem](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Backtracking/Word%20Break%20Problem)
+* [Rat In A Maze](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Backtracking/Rat%20In%20A%20Maze.cpp)
 
 
 
