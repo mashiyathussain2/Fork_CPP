@@ -37,6 +37,17 @@ This repository contain the C++ program from basic to advance.
 * [Range Sum Query](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Index%20Tree/Range%20Sum%20Query.cpp)
 
 
+#### 4. Binary Tree
+* [Construction of a Binary Tree from Inorder and Preorder traversal](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Construction%20of%20a%20Binary%20Tree%20from%20Inorder%20and%20Preorder%20traversal.cpp)
+* [Height of Tree](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Height_of_Tree.cpp)
+* [Inorder Traversal](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Inorder_Traversal.cpp)
+* [LCA](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/LCA.cpp)
+* [Postorder_Traversal](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Postorder_Traversal.cpp)
+* [Preorder Build And Print](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Preorder_Build_And_Print.cpp)
+* [Print Node At Distance K](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Print_Node_At_Distance_K.cpp)
+* [Tree Traversal In Spiral Form](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Tree%20Traversal%20In%20Spiral%20Form.cpp)
+* [preorder_traversal](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/preorder_traversal.cpp)
+
 
 
 
