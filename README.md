@@ -49,7 +49,22 @@ This repository contain the C++ program from basic to advance.
 * [preorder_traversal](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/preorder_traversal.cpp)
 
 
-#### Bit_Manipulation
+#### 5. Bit_Manipulation
+* [Calculate square of a number](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Calculate%20square%20of%20a%20number)
+* [Clear Bit](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Clear%20Bit)
+* [Clear Range Of Bit](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Clear%20Range%20Of%20Bit)
+* [Copy set bits in a range](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Copy%20set%20bits%20in%20a%20range)
+* [Count number of bits to be flipped to convert A to B](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Count%20number%20of%20bits%20to%20be%20flipped%20to%20convert%20A%20to%20B)
+* [Decimal_To_Binary](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Decimal_To_Binary)
+* [Find position of the only set bit](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Find%20position%20of%20the%20only%20set%20bit)
+* [Find the two non-repeating elements in an array of repeating elements](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Find%20the%20two%20non-repeating%20elements%20in%20an%20array%20of%20repeating%20elements)
+* [Find_Unique_Number](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Find_Unique_Number)
+* [Inserting m into n such that m starts at bit j and ends at bit i](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Inserting%20m%20into%20n%20such%20that%20m%20starts%20at%20bit%20j%20and%20ends%20at%20bit%20i)
+* [Modify a bit at a given position](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Modify%20a%20bit%20at%20a%20given%20position)
+* [Program to find whether a no is power of two](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Program%20to%20find%20whether%20a%20no%20is%20power%20of%20two)
+* [Set Bit](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Set%20Bit)
+* [Clear Range I to J](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Bit_Manipulation/Clear%20Range%20I%20to%20J.cpp)
+* [Fast Exponential](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Bit_Manipulation/Fast%20Exponential.cpp)
 
 
 
