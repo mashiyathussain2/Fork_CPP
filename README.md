@@ -84,6 +84,27 @@ This repository contain the C++ program from basic to advance.
 * [Subsequence Count](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Dynamic%20Programming/Subsequence%20Count)
 
 
+#### 7. Graph
+* [Minimum Spanning Tree](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Graph/Minimum%20Spanning%20Tree)
+* [Pairing Problem](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Graph/Pairing%20Problem)
+* [Shortest Cycle in an Undirected Unweighted Graph](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Graph/Shortest%20Cycle%20in%20an%20Undirected%20Unweighted%20Graph)
+* [Snake_And_ladder](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Graph/Snake_And_ladder)
+* [Traversal](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Graph/Traversal)
+* [Bellman Ford Algorithm.cpp](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Bellman%20Ford%20Algorithm.cpp)
+* [Bipartite Graph Check.cpp](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Graph)
+* [Check If Unidirected Graph Is A Tree Or Not](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Check%20If%20Unidirected%20Graph%20Is%20A%20Tree%20Or%20Not.cpp)
+* [Connected Components Count](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Connected%20Components%20Count.cpp)
+* [Cycle Detectin Undirected Graph Using DFS](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Cycle%20Detectin%20Undirected%20Graph%20Using%20DFS.cpp)
+* [Cycle Detection Directed Graph Using DFS](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Cycle%20Detection%20Directed%20Graph%20Using%20DFS.cpp)
+* [Cycle Detection In Undirected Graph Using DSU](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Cycle%20Detection%20In%20Undirected%20Graph%20Using%20DSU.cpp)
+* [Dijkstra's Algorithm](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Dijkstra's%20Algorithm.cpp)
+* [Flood Fill Algorithm](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Flood%20Fill%20Algorithm.cpp)
+* [Path Compression Optimisation](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Path%20Compression%20Optimisation.cpp)
+* [Single_Source_Shortest_Path](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Single_Source_Shortest_Path.cpp)
+* [Topological Sort Using BFS](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Topological%20Sort%20Using%20BFS.cpp)
+* [Topological Sort Using DFS](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Topological%20Sort%20Using%20DFS.cpp)
+* [Union By Rank Optimisation](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Union%20By%20Rank%20Optimisation.cpp)
+
 
 ## Contribution Guidelines :
 
