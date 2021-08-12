@@ -105,6 +105,14 @@ This repository contain the C++ program from basic to advance.
 * [Topological Sort Using DFS](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Topological%20Sort%20Using%20DFS.cpp)
 * [Union By Rank Optimisation](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Union%20By%20Rank%20Optimisation.cpp)
 
+#### 8. Greedy Algorithmns
+* [Activity_Selection_Problem](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Greedy%20Algorithmns/Activity_Selection_Problem)
+* [Connecting_Wires](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Greedy%20Algorithmns/Connecting_Wires)
+* [Defense of a Kingdom](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Greedy%20Algorithmns/Defense%20of%20a%20Kingdom)
+* [Load Balancing](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Greedy%20Algorithmns/Load%20Balancing)
+
+
+
 
 ## Contribution Guidelines :
 
