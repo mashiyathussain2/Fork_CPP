@@ -1,0 +1,41 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+twoSum(int nums[], int target, int n)
+{
+    vector<int> res;
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int j = i + 1; j < n; j++)
+        {
+            if ((nums[i] + nums[j]) == target)
+            {
+                res.push_back(i);
+                res.push_back(j);
+            }
+        }
+    }
+    for (int i = 0; i < res.size(); i++)
+    {
+        cout<<res[i]<<" ";
+    }
+    cout<<"\n"; 
+}
+int main()
+{
+    int testCase;
+    cin >> testCase;
+    while (testCase--)
+    {
+        int n,target;
+        cout<<"Enter size of array/vector :\n";
+        cin>>n;
+        int nums[n];
+        for (int i = 0; i < n; i++)
+        {
+            cin>>nums[i];
+        }
+        cin>>target;
+        twoSum(nums,target,n);
+    }
+}
