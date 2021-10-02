@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t,d,n,count=0,sum;
+    cin>>t;
+    for(int i=0;i<t;i++)
+    {
+        cin>>d>>n;
+        for(int j=0;j<d;j++)
+        {
+            for(int k=1;k<n+1;k++)
+               {sum=sum+k;}
+               n=sum;
+               sum=0;
+        }
+        cout<<n<<endl;
+    }
+	return 0;
+}
