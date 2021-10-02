@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int t,b,add,count;
+    cin>>t;
+    for(int j=0;j<t;j++)
+    {
+        cin>>b;
+        add=1;count=0;
+
+        if(b<4)
+            cout<<"0";
+        else
+        {
+            for(int i=4;i<b+1;i+=2)
+            {
+                count=count+add;
+                add++;
+            }
+            cout<<count;
+        }
+    }
+}
