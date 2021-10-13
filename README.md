@@ -4,6 +4,7 @@ This repository contain the C++ program from basic to advance.
 
 ### 1. Array
 * [Sum Of Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Sum_of_elements.cpp)
+* [Product Of Two Arrays](https://github.com/Pandz18/Fork_CPP/blob/main/Array/Product%20Of%20Two%20Arrays/Sol.cpp)
 * [Reverse Array](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Reverse%20Array.cpp)
 * [Remove Duplicate Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Remove%20Duplicate%20Elements.cpp)
 * [Left Rotate By One](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Left%20Rotate%20By%20One.cpp)
@@ -21,6 +22,10 @@ This repository contain the C++ program from basic to advance.
 * [Largest Element](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Largest%20Element.cpp)
 * [Insert Element](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Insert_element.cpp)
 * [Cyclically rotate an array by one](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Array/Problem%201)
+* [2D Array Multiplication](https://github.com/Pandz18/Fork_CPP/blob/main/Array/2D%20Array%20Multiplication/Sol_by_Pandz18.cpp)
+* [Reverse Array](https://github.com/Pandz18/Fork_CPP/blob/main/Array/Reverse%20Array/Sol.cpp)
+* [Bubble Sort](https://github.com/Pandz18/Fork_CPP/blob/main/Array/Sorting/Bubble%20Sort/Sol.cpp)
+* [Insertion Sort](https://github.com/Pandz18/Fork_CPP/blob/main/Array/Sorting/Insertion%20Sort/Solution_1.cpp)
 
 
 ### 2. Backtracking
