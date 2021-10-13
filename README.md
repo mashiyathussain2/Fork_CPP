@@ -112,7 +112,38 @@ This repository contain the C++ program from basic to advance.
 * [Load Balancing](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Greedy%20Algorithmns/Load%20Balancing)
 
 #### 9. Linked List
-* []
+#### Circular Linked List
+* [Delete Head](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Linked%20List/Circular%20Linked%20List/Delete_Head)
+* [Insert at begin](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Linked%20List/Circular%20Linked%20List/Insert_At_Begin)
+* [Insert at end](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Linked%20List/Circular%20Linked%20List/Insert_At_End)
+* [Transversal](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Linked%20List/Circular%20Linked%20List/Traversal)
+* [Delete Kth Node](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Circular%20Linked%20List/Delete_Kth_Node.cpp)
+* [Implementation](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Circular%20Linked%20List/Implementation.cpp)
+
+#### Doubly Linked List
+* [Delete Head](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Doubly%20Linked%20List/Delete_Head.cpp)
+* [Delete Last](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Doubly%20Linked%20List/Delete_Last.cpp)
+* [Implementation](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Doubly%20Linked%20List/Implementation.cpp)
+* [Insert at begin](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Doubly%20Linked%20List/Insert_At_Begin.cpp)
+* [Insert at end](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Doubly%20Linked%20List/Insert_At_End.cpp)
+
+#### Singly Linked List
+* [Middle of the Linked List](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Middle%20of%20the%20Linked%20List/README.md)
+* [Multiply two numbers represented by Linked Lists](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Multiply%20two%20numbers%20represented%20by%20Linked%20Lists/Solution_1.cpp)
+* [Program for n’th node from the end of a Linked List](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Program%20for%20n’th%20node%20from%20the%20end%20of%20a%20Linked%20List/Solution_1.cpp)
+* [Remove duplicate element from sorted Linked List](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Remove%20duplicate%20element%20from%20sorted%20Linked%20List/Solution_1.cpp)
+* [Reverse Linked List](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Linked%20List/Singly_Linked_List/Reverse%20Linked%20List)
+* [Reverse a Linked List in groups of given size](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Reverse%20a%20Linked%20List%20in%20groups%20of%20given%20size/Solutiopn_1.cpp)
+* [Searching](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Linked%20List/Singly_Linked_List/Searching)
+* [Delete First Node](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Delete_First_Node.cpp)
+* [Delete Last Node](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Delete_Last_Node.cpp)
+* [Implementation](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Implementation.cpp)
+* [Insert At End](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Insert_At_End.cpp)
+* [Insert At begin](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Insert_At_begin.cpp)
+* [Merge Two Sorted Linked List](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Merge%20Two%20Sorted%20Linked%20List.cpp)
+* [Recursive Traversal](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Recursive_Traversal.cpp)
+* [Singly Linked List](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Singly%20Linked%20List.cpp)
+* [Traverse](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Linked%20List/Singly_Linked_List/Traverse.cpp)
 
 
 
@@ -129,6 +160,7 @@ Hello! Before you start to contribute to this repository, please read through th
 
 ## Any feedback or suggestion:
 - Mail [mashiyathussain2@gmail.com](mailto:mashiyathussain2@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+
 
 ## ❤️ Thanks to our awesome contributors.
 
