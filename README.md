@@ -2,7 +2,7 @@
 
 This repository contain the C++ program from basic to advance.
 
-#### 1. Array
+### 1. Array
 * [Sum Of Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Sum_of_elements.cpp)
 * [Reverse Array](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Reverse%20Array.cpp)
 * [Remove Duplicate Elements](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Array/Remove%20Duplicate%20Elements.cpp)
@@ -23,7 +23,7 @@ This repository contain the C++ program from basic to advance.
 * [Cyclically rotate an array by one](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Array/Problem%201)
 
 
-#### 2. Backtracking
+### 2. Backtracking
 * [N-Queen Problem](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Backtracking/N-Queen%20Problem)
 * [Palindromic Partitions](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Backtracking/Palindromic%20Partitions)
 * [Print all permutations of a given string](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Backtracking/Print%20all%20permutations%20of%20a%20given%20string)
@@ -31,13 +31,13 @@ This repository contain the C++ program from basic to advance.
 * [Rat In A Maze](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Backtracking/Rat%20In%20A%20Maze.cpp)
 
 
-#### 3. Binary Index Tree
+### 3. Binary Index Tree
 * [Inversion Count](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Index%20Tree/Inversion%20Count.cpp)
 * [Prefix Max Element Query](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Index%20Tree/Prefix%20Max%20Element%20Query.cpp)
 * [Range Sum Query](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Index%20Tree/Range%20Sum%20Query.cpp)
 
 
-#### 4. Binary Tree
+### 4. Binary Tree
 * [Construction of a Binary Tree from Inorder and Preorder traversal](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Construction%20of%20a%20Binary%20Tree%20from%20Inorder%20and%20Preorder%20traversal.cpp)
 * [Height of Tree](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Height_of_Tree.cpp)
 * [Inorder Traversal](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/Inorder_Traversal.cpp)
@@ -49,7 +49,7 @@ This repository contain the C++ program from basic to advance.
 * [preorder_traversal](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Binary%20Tree/preorder_traversal.cpp)
 
 
-#### 5. Bit_Manipulation
+### 5. Bit_Manipulation
 * [Calculate square of a number](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Calculate%20square%20of%20a%20number)
 * [Clear Bit](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Clear%20Bit)
 * [Clear Range Of Bit](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Bit_Manipulation/Clear%20Range%20Of%20Bit)
@@ -67,7 +67,7 @@ This repository contain the C++ program from basic to advance.
 * [Fast Exponential](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Bit_Manipulation/Fast%20Exponential.cpp)
 
 
-#### 6. Dynamic Programming
+### 6. Dynamic Programming
 * [Array Jump Problem](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Dynamic%20Programming/Array%20Jump%20Problem)
 * [Box Stacking](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Dynamic%20Programming/Box%20Stacking)
 * [Coin Change Problem](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Dynamic%20Programming/Coin%20Change%20Problem)
@@ -84,7 +84,7 @@ This repository contain the C++ program from basic to advance.
 * [Subsequence Count](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Dynamic%20Programming/Subsequence%20Count)
 
 
-#### 7. Graph
+### 7. Graph
 * [Minimum Spanning Tree](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Graph/Minimum%20Spanning%20Tree)
 * [Pairing Problem](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Graph/Pairing%20Problem)
 * [Shortest Cycle in an Undirected Unweighted Graph](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Graph/Shortest%20Cycle%20in%20an%20Undirected%20Unweighted%20Graph)
@@ -105,13 +105,13 @@ This repository contain the C++ program from basic to advance.
 * [Topological Sort Using DFS](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Topological%20Sort%20Using%20DFS.cpp)
 * [Union By Rank Optimisation](https://github.com/mashiyathussain2/Fork_CPP/blob/main/Graph/Union%20By%20Rank%20Optimisation.cpp)
 
-#### 8. Greedy Algorithmns
+### 8. Greedy Algorithmns
 * [Activity_Selection_Problem](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Greedy%20Algorithmns/Activity_Selection_Problem)
 * [Connecting_Wires](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Greedy%20Algorithmns/Connecting_Wires)
 * [Defense of a Kingdom](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Greedy%20Algorithmns/Defense%20of%20a%20Kingdom)
 * [Load Balancing](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Greedy%20Algorithmns/Load%20Balancing)
 
-#### 9. Linked List
+### 9. Linked List
 #### Circular Linked List
 * [Delete Head](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Linked%20List/Circular%20Linked%20List/Delete_Head)
 * [Insert at begin](https://github.com/mashiyathussain2/Fork_CPP/tree/main/Linked%20List/Circular%20Linked%20List/Insert_At_Begin)
@@ -148,21 +148,21 @@ This repository contain the C++ program from basic to advance.
 
 
 
-## Contribution Guidelines :
+### Contribution Guidelines :
 
 Hello! Before you start to contribute to this repository, please read through the [Contribution guidelines](CONTRIBUTING.md) and feel free to create an issue if you have any questions or want to add or change something. Happy coding!
 
-## If you like the project⭐:
+### If you like the project⭐:
 - Star the repo - [Fork_CPP](https://github.com/mashiyathussain2/Fork_CPP)
 - Follow me on Github - [Mashiyat Hussain](https://github.com/mashiyathussain2)
 
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/mashiyathussain2)
 
-## Any feedback or suggestion:
+### Any feedback or suggestion:
 - Mail [mashiyathussain2@gmail.com](mailto:mashiyathussain2@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 
 
-## ❤️ Thanks to our awesome contributors.
+### ❤️ Thanks to our awesome contributors.
 
 <table>
 <tr>
@@ -171,6 +171,8 @@ Hello! Before you start to contribute to this repository, please read through th
 <td align="center"><a href="https://github.com/shouryagupta21"><img src="https://avatars.githubusercontent.com/u/84736794?v=4" width="100px;" alt=""/><br /><sub><b>shouryagupta21</b></sub></a><br /> </td>
 <td align="center"><a href="https://github.com/deenu-1001"><img src="https://avatars.githubusercontent.com/u/82225952?v=4" width="100px;" alt=""/><br /><sub><b>deenu-1001</b></sub></a><br /> </td>
 <td align="center"><a href="https://github.com/yashasvi17rawat"><img src="https://avatars.githubusercontent.com/u/72373107?v=4" width="100px;" alt=""/><br /><sub><b>yashasvi17rawat</b></sub></a><br /> </td>
+  </tr>
+  <tr>
 <td align="center"><a href="https://github.com/CRAZYGEEKS04"><img src="https://avatars.githubusercontent.com/u/60053891?v=4" width="100px;" alt=""/><br /><sub><b>CRAZYGEEKS04</b></sub></a><br /> </td>
 <td align="center"><a href="https://github.com/Sandeshjain13"><img src="https://avatars.githubusercontent.com/u/91777977?v=4" width="100px;" alt=""/><br /><sub><b>Sandeshjain13</b></sub></a><br /> </td>
 <td align="center"><a href="https://github.com/vishalvishw10"><img src="https://avatars.githubusercontent.com/u/56310842?v=4" width="100px;" alt=""/><br /><sub><b>vishalvishw10</b></sub></a><br /> </td>
