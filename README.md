@@ -171,9 +171,9 @@ Hello! Before you start to contribute to this repository, please read through th
 <td align="center"><a href="https://github.com/shouryagupta21"><img src="https://avatars.githubusercontent.com/u/84736794?v=4" width="100px;" alt=""/><br /><sub><b>shouryagupta21</b></sub></a><br /> </td>
 <td align="center"><a href="https://github.com/deenu-1001"><img src="https://avatars.githubusercontent.com/u/82225952?v=4" width="100px;" alt=""/><br /><sub><b>deenu-1001</b></sub></a><br /> </td>
 <td align="center"><a href="https://github.com/yashasvi17rawat"><img src="https://avatars.githubusercontent.com/u/72373107?v=4" width="100px;" alt=""/><br /><sub><b>yashasvi17rawat</b></sub></a><br /> </td>
+<td align="center"><a href="https://github.com/CRAZYGEEKS04"><img src="https://avatars.githubusercontent.com/u/60053891?v=4" width="100px;" alt=""/><br /><sub><b>CRAZYGEEKS04</b></sub></a><br /> </td>
   </tr>
   <tr>
-<td align="center"><a href="https://github.com/CRAZYGEEKS04"><img src="https://avatars.githubusercontent.com/u/60053891?v=4" width="100px;" alt=""/><br /><sub><b>CRAZYGEEKS04</b></sub></a><br /> </td>
 <td align="center"><a href="https://github.com/Sandeshjain13"><img src="https://avatars.githubusercontent.com/u/91777977?v=4" width="100px;" alt=""/><br /><sub><b>Sandeshjain13</b></sub></a><br /> </td>
 <td align="center"><a href="https://github.com/vishalvishw10"><img src="https://avatars.githubusercontent.com/u/56310842?v=4" width="100px;" alt=""/><br /><sub><b>vishalvishw10</b></sub></a><br /> </td>
   </tr>
