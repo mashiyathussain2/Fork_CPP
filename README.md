@@ -119,21 +119,7 @@ This repository contain the C++ program from basic to advance.
 
 ## Contribution Guidelines :
 
->### Steps required to follow before adding any file or code or solution.
-
-### If you want to add something awesome to contribute to the repository, this is how you do it.
-
-1. Go to given file where you could see the problem.
-2. See the constraints, input and output formats of the problem and write your function accordingly. (Would help you to write a clean code.)
-3. Run your solution on local machines and check for some test cases.
-4. Click on create **new file** in that folder only.
-5. Copy your code there and with Solution_By_A.cpp [ A would be Your Name - Like Solution_By_Mashiyat.cpp ]
-6. After copying, click on propose new file.[ At the Bottom]
-7. Then You'd be redirected to new page, where you need to click on create pull request.
-8. Add your comments or anything you want to tell abour you solution.
-9. Then Click on create pull request and write one line description in box above the button.
-10. Your solution is pushed in the repository.
-11. If you want to add a new problem, then add a readMe.md together to explain the problem and choose appropriate sections such as Dynamaic Programming, Greedy Algorithms, Data Structure, etc to push your readMe and solution file. For example - If you are adding Tim Sort solution, go to Array or Vector folder inside Data Structure Section and then create a folder Tim Sort and then add both of your files there.
+Hello! Before you start to contribute to this repository, please read through the [Contribution guidelines](CONTRIBUTING.md) and feel free to create an issue if you have any questions or want to add or change something. Happy coding!
 
 ## If you like the project⭐:
 - Star the repo - [Fork_CPP](https://github.com/mashiyathussain2/Fork_CPP)
@@ -148,7 +134,13 @@ This repository contain the C++ program from basic to advance.
 
 <table>
 <tr>
-<td align="center"><a href="https://github.com/Pandz18"><img src="https://avatars.githubusercontent.com/u/87066683?v=4" width="100px;" alt=""/><br /><sub><b>Pandz18</b></sub></a><br /> </td>
 <td align="center"><a href="https://github.com/mashiyathussain2"><img src="https://avatars.githubusercontent.com/u/39239687?v=4" width="100px;" alt=""/><br /><sub><b>mashiyathussain2</b></sub></a><br /> </td>
+<td align="center"><a href="https://github.com/Pandz18"><img src="https://avatars.githubusercontent.com/u/87066683?v=4" width="100px;" alt=""/><br /><sub><b>Pandz18</b></sub></a><br /> </td>
+<td align="center"><a href="https://github.com/shouryagupta21"><img src="https://avatars.githubusercontent.com/u/84736794?v=4" width="100px;" alt=""/><br /><sub><b>shouryagupta21</b></sub></a><br /> </td>
+<td align="center"><a href="https://github.com/deenu-1001"><img src="https://avatars.githubusercontent.com/u/82225952?v=4" width="100px;" alt=""/><br /><sub><b>deenu-1001</b></sub></a><br /> </td>
+<td align="center"><a href="https://github.com/yashasvi17rawat"><img src="https://avatars.githubusercontent.com/u/72373107?v=4" width="100px;" alt=""/><br /><sub><b>yashasvi17rawat</b></sub></a><br /> </td>
+<td align="center"><a href="https://github.com/CRAZYGEEKS04"><img src="https://avatars.githubusercontent.com/u/60053891?v=4" width="100px;" alt=""/><br /><sub><b>CRAZYGEEKS04</b></sub></a><br /> </td>
+<td align="center"><a href="https://github.com/Sandeshjain13"><img src="https://avatars.githubusercontent.com/u/91777977?v=4" width="100px;" alt=""/><br /><sub><b>Sandeshjain13</b></sub></a><br /> </td>
+<td align="center"><a href="https://github.com/vishalvishw10"><img src="https://avatars.githubusercontent.com/u/56310842?v=4" width="100px;" alt=""/><br /><sub><b>vishalvishw10</b></sub></a><br /> </td>
   </tr>
   </table>
