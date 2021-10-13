@@ -119,7 +119,7 @@ This repository contain the C++ program from basic to advance.
 
 ## Contribution Guidelines :
 
-Hello! Before you start to contribute to this repository, please read through the "      " guidelines and feel free to create an issue if you have any questions or want to add or change something. Happy coding!
+Hello! Before you start to contribute to this repository, please read through the [Contribution guidelines](CONTRIBUTING.md) and feel free to create an issue if you have any questions or want to add or change something. Happy coding!
 
 ## If you like the project⭐:
 - Star the repo - [Fork_CPP](https://github.com/mashiyathussain2/Fork_CPP)
