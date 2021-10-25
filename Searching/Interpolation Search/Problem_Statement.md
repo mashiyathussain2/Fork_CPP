@@ -1,6 +1,6 @@
 ### Problem Statement
 
-**Given an array, find the index of the element to be searched using Interpolation Search **
+### Given an array, find the index of the element to be searched using Interpolation Search 
 
 ### Sample Input & Output
 
